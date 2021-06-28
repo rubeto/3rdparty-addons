@@ -1,0 +1,9 @@
+<odoo>
+  <data>
+		<record id="account.res_partner_action_supplier" model="ir.actions.act_window">
+      <field name="view_mode">tree,kanban,form</field>
+			<field name="name">Suppliers</field>
+			<field name="res_model">res.partner</field>
+		</record>
+  </data>
+</odoo>

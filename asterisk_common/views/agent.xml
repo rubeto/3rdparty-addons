@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="remote_agent_agent_action" model="ir.actions.server">
+            <field name="name">Asterisk Agent</field>
+            <field name="model_id" ref="model_remote_agent_agent"/>
+            <field name="state">code</field>
+            <field name="code">action = model.open_agent_form()</field>
+        </record>
+
+        <record id='remote_agent_states_action' model='ir.actions.act_window'>
+            <field name='name'>Agent States</field>
+            <field name='res_model'>remote_agent.agent_state</field>
+            <field name="view_mode">tree,graph</field>
+            <field name="domain">[('agent', '=', context.get('agent_id'))]</field>
+        </record>
+
+        <menuitem id="remote_agent_agent_menu" parent='asterisk_settings_menu'
+            sequence="10" name='Agent' action='remote_agent_agent_action'/>
+
+        <record id='remote_agent_agent_list' model='ir.ui.view'>
+            <field name='name'>remote_agent.agent.list</field>
+            <field name='model'>remote_agent.agent</field>
+            <field name='type'>tree</field>
+            <field name='arch' type='xml'>
+                <tree decoration-danger="alarm != False">
+                    <field name="alarm" invisible="1"/>
+                    <field name="state_icon" widget="html" string="S"/>
+                    <field name="note"/>
+                    <field name="system_name"/>                    
+                    <field name="state"/>                          
+                    <field name="state_changed_human"/>
+                    <field name="last_online_human"/>
+                    <field name="connection_type"/>
+                    <field name="version"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id='remote_agent_agent_form' model='ir.ui.view'>
+            <field name='name'>remote_agent.agent.form</field>
+            <field name='model'>remote_agent.agent</field>
+            <field name='type'>form</field>
+            <field name='arch' type='xml'>
+              <form>
+                  <header>                    
+                    <button type="object" name="ping_agent"
+                                class="oe_read_only btn-primary"
+                                string="Ping Agent" icon="fa-eye"/>
+                    <button type="object" name="ping_asterisk"
+                                class="oe_read_only"
+                                string="Ping Asterisk" icon="fa-eye"/>
+                    <button type="object" name="restart"
+                                class="oe_read_only btn-warning"
+                                string="Restart" icon="fa-plug"/>
+                    <button type="object" name="clear_alarm_button"
+                                class="oe_read_only btn-danger"
+                                attrs="{'invisible': [('alarm', '=', False)]}"
+                                string="Clear Alarm" icon="fa-check"/>
+                    <button type="object" name="adjust_permissions"
+                                class="oe_read_only" string="Adjust Permissions"
+                                icon="fa-gear"/>
+                    <button type="object" name="reload_events"
+                                class="oe_read_only" string="Reload events"
+                                icon="fa-gear"/>
+                    <button type="object" name="refresh_view_button"
+                                class="oe_read_only"
+                                string="Refresh" icon="fa-refresh"/>
+                    <field name="state" widget="statusbar"/>
+                  </header>
+                  <sheet>
+                    <div class="oe_button_box oe_read_only">
+                        <button class="oe_stat_button" icon="fa-chain"
+                            type="action" name="%(remote_agent_states_action)d"
+                            context="{'agent_id': id, 'hide_agent': True}">
+                                <field name="state_count" string="States"
+                                    widget="statinfo"/>
+                        </button>
+                    </div>
+                    <div class="oe_read_only badge-pill badge-danger float-right"
+                         attrs="{'invisible': [('alarm', '=', False)]}">
+                            <field name="alarm"/>
+                    </div>                    
+                    <div name="title" class="oe_title">
+                        <label for="note" class="oe_edit_only"/>
+                        <h1><field name="note"/></h1>
+                    </div>
+                    <notebook>
+                        <page string="Settings">
+                            <group>
+                                <group>
+                                    <field name="id" invisible="1"/>
+                                    <field name="user"/>
+                                    <field name="tz"/>
+                                    <field name="country_id"/>
+                                </group>                        
+                                <group name="connection">
+                                    <field name="connection_type"/>
+                                    <field name="bus_timeout"
+                                            attrs="{'invisible': [('connection_type', '!=', 'bus')],
+                                                    'required': [('connection_type', '=', 'bus')]}"/>
+                                    <field name='http_url'
+                                           attrs="{'invisible': [('connection_type', '!=', 'http')],
+                                                   'required': [('connection_type', '=', 'http')]}"/>
+                                    <field name='http_ssl_verify'
+                                           attrs="{'invisible': [('connection_type', '!=', 'http')]}"/>
+                                    <field name='http_timeout'
+                                           attrs="{'invisible': [('connection_type', '!=', 'http')],
+                                                   'required': [('connection_type', '=', 'http')]}"/>
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Information" class="oe_read_only">
+                            <group>
+                                <group>
+                                    <field name="system_name"/>
+                                    <field name="version"/>
+                                    <field name="state_changed"/>
+                                    <field name="state_changed_human"/>
+                                </group>
+                                <group>
+                                    <field name="current_db"/>
+                                    <field name="last_online"/>
+                                    <field name="last_online_human"/>
+                                </group>
+                            </group>
+                            <group class="oe_read_only">
+                                    <field name="states" nolabel="1">
+                                        <tree limit="10">                                
+                                            <field name="state"/>
+                                            <field name="create_date"/>
+                                            <field name="note"/>
+                                            <field name="create_date" string="Created"/>
+                                        </tree>
+                                    </field>
+                            </group>
+                        </page>
+                    </notebook>
+                  </sheet>
+              </form>
+            </field>
+        </record>
+
+        <record id='remote_agent_agent_search' model='ir.ui.view'>
+            <field name='name'>remote_agent.agent.search</field>
+            <field name='model'>remote_agent.agent</field>
+            <field name='type'>search</field>
+            <field name='arch' type='xml'>
+                <search>
+                    <field name="note"/>
+                    <field name='system_name'/>
+                    <field name="state"/>
+                    <field name="state_changed"/>
+                    <field name="last_online"/>
+                    <filter name="bus_enabled" string="Bus Connection"
+                        domain="[('connection_type', '=', 'bus')]"/>
+                    <filter name="http_enabled" string="HTTP Connection"
+                        domain="[('connection_type', '=', 'http')]"/>
+                    <separator/>
+                    <filter name="online" string="Online"
+                        domain="[('state', '=', 'online')]"/>
+                    <filter name="offline" string="Offline"
+                        domain="[('state', '=', 'offline')]"/>                    
+                </search>
+            </field>
+        </record>
+
+    </data>
+</odoo>
