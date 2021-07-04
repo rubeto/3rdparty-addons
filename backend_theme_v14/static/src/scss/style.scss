@@ -456,3 +456,12 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
     display: none;
   }
 }
+
+// Many2many_tags color
+.badge {
+  color: #ffffff;
+}
+
+.o_field_widget.o_field_many2manytags .badge .o_badge_text {
+  color: #ffffff;
+}
