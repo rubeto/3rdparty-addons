@@ -283,6 +283,7 @@ class AccountReconciliation(models.AbstractModel):
         aml_ids = self._context.get('active_ids') and self._context.get('active_model') == 'account.move.line' and tuple(self._context.get('active_ids'))
         if aml_ids:
             aml = MoveLine.browse(aml_ids)
+            aml._check_reconcile_validity()
             account = aml[0].account_id
             currency = account.currency_id or account.company_id.currency_id
             return {
@@ -1047,6 +1048,7 @@ class AccountBankStatementLine(models.Model):
                 and user_type_id not in account_types
             ):
                 account_types |= user_type_id
+
         # Fully reconciled moves are just linked to the bank statement
         total = self.amount
         currency = self.currency_id or statement_currency
@@ -1060,8 +1062,7 @@ class AccountBankStatementLine(models.Model):
             )
             aml_rec.with_context(check_move_validity=False).write({"statement_line_id": self.id})
             counterpart_moves = counterpart_moves | aml_rec.move_id
-            # Update
-            if aml_rec.payment_id and aml_rec.move_id.state == "draft":
+            if aml_rec.journal_id.post_at == "bank_rec" and aml_rec.payment_id and aml_rec.move_id.state == "draft":
                 # In case the journal is set to only post payments when performing bank
                 #reconciliation, we modify its date and post it.
                 aml_rec.move_id.date = self.date
@@ -1110,8 +1111,7 @@ class AccountBankStatementLine(models.Model):
                 aml_to_reconcile.append((new_aml, counterpart_move_line))
 
             # Post to allow reconcile
-            if self.move_id.state == 'draft':
-                self.move_id.with_context(skip_account_move_synchronization=True).action_post()
+            self.move_id.with_context(skip_account_move_synchronization=True).action_post()
 
             # Reconcile new lines with counterpart
             for new_aml, counterpart_move_line in aml_to_reconcile:
@@ -1121,8 +1121,7 @@ class AccountBankStatementLine(models.Model):
 
             # Needs to be called manually as lines were created 1 by 1
             self.move_id.update_lines_tax_exigibility()
-            if self.move_id.state == 'draft':
-                self.move_id.with_context(skip_account_move_synchronization=True).action_post()
+            self.move_id.with_context(skip_account_move_synchronization=True).action_post()
             # record the move name on the statement line to be able to retrieve
             # it in case of unreconciliation
             self.write({"move_name": self.move_id.name})
