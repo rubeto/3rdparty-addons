@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id = "stock_report_delivery" inherit_id = "stock.report_delivery_document">
+		<xpath expr="//table[1]/thead/tr[1]/th[1]" position="after">   
+			<th>Image</th>
+		</xpath>
+		<xpath expr="//table[1]/tbody/tr[1]/td[1]" position="after">
+		<td> 
+			<img t-if="move.image_128" t-att-src="'data:image/png;base64,%s' % to_text(move.image_128)" style="width: 40%"/>
+		</td>
+		</xpath>
+
+		<xpath expr="//table[2]/thead/tr[1]/th[1]" position="after">   
+			<th>Image</th>
+		</xpath>
+		<xpath expr="//table[2]/tbody" position="replace">
+			<t t-set="lines" t-value="o.move_lines.filtered(lambda x: x.product_uom_qty)"/>
+                <tr t-foreach="lines" t-as="move">
+                    <td>
+                        <span t-field="move.product_id"/>
+                        <p t-if="move.description_picking != move.product_id.name">
+                        	<span t-field="move.description_picking"/>
+                        </p>
+                    </td>
+                    <td> 
+						<img t-if="move.image_128" t-att-src="'data:image/png;base64,%s' % to_text(move.image_128)" style="width: 40%"/>
+					</td>
+                    <td class="text-center">
+                        <span t-field="move.product_uom_qty"/>
+                        <span t-field="move.product_uom"/>
+                    </td>
+            </tr>
+		</xpath>
+		
+	</template>
+
+	<template id = "stock_report_inherit" inherit_id = "stock.report_picking">
+		<xpath expr="//table[1]/thead/tr[1]/th[1]" position="after">   
+			<th>Image</th>
+		</xpath>
+		<xpath expr="//table[1]/tbody/t[1]/t[1]/tr[1]/td[1]" position="after"> 
+			<td><img t-if="move.image_128" t-att-src="'data:image/png;base64,%s' % to_text(move.image_128)" style="width: 40%"/></td>
+		</xpath>
+	</template>
+
+</odoo>
+                

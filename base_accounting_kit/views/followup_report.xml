@@ -72,7 +72,7 @@
             <field name="name">customer.statements.tree</field>
             <field name="model">res.partner</field>
             <field name="arch" type="xml">
-                <tree string="Seguimiento Deudas Tree View" create="false" import="false" delete="false">
+                <tree string="Follow-up Reports Tree View" create="false" import="false" delete="false">
                     <field name="currency_id" invisible="1"/>
                     <field name="name"/>
                     <field name="total_due" widget="monetary" options="{'currency_field': 'currency_id'}" sum="Total"/>
@@ -106,7 +106,7 @@
         </record>
 
         <record id="action_view_list_customer_statements" model="ir.actions.act_window">
-            <field name="name">Seguimiento Deudas</field>
+            <field name="name">Follow-up Reports</field>
             <field name="res_model">res.partner</field>
             <field name="view_mode">tree,form</field>
             <field name="view_ids" eval="[(5, 0, 0),
@@ -120,7 +120,7 @@
             </field>
         </record>
 
-        <menuitem id="customer_statements_menu" name="Seguimiento Deudas"
+        <menuitem id="customer_statements_menu" name="Follow-up Reports"
                   parent="account.menu_finance_receivables"
                   action="action_view_list_customer_statements" sequence="20"
                   groups="account.group_account_user"/>

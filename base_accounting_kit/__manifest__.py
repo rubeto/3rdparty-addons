@@ -22,7 +22,7 @@
 
 {
     'name': 'Odoo 14 Full Accounting Kit',
-    'version': '14.0.3.10.8',
+    'version': '14.0.3.13.14',
     'category': 'Accounting',
     'live_test_url': 'https://www.youtube.com/watch?v=peAp2Tx_XIs',
     'summary': """ Asset and Budget Management,
@@ -46,7 +46,7 @@
                     Reconciliation Widget For Odoo14,
                     Payments Matching
                     """,
-    'author': ' Odoo SA,Cybrosys Techno Solutions',
+    'author': 'Cybrosys Techno Solutions, Odoo SA',
     'website': "https://www.cybrosys.com",
     'company': 'Cybrosys Techno Solutions',
     'maintainer': 'Cybrosys Techno Solutions',
@@ -65,6 +65,7 @@
         'views/dashboard_views.xml',
         'views/reports_config_view.xml',
         'views/accounting_menu.xml',
+        'views/account_group.xml',
         'views/credit_limit_view.xml',
         'views/account_configuration.xml',
         'views/account_payment_view.xml',

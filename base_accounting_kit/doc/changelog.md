@@ -70,3 +70,33 @@
 #### UPDT
 - Report Configuration Sequence
 
+#### 28.05.2021
+#### Version 14.0.3.11.9
+#### UPDT
+- 2 * Dashboard Issue
+- Report Configuration Sequence
+
+#### 17.06.2021
+#### Version 14.0.3.11.10
+#### FIX
+- Invalid field 'post_at' in Journal - issue fixed
+
+#### 05.07.2021
+#### Version 14.0.3.11.11
+#### FIX
+- 'Journal entry already posted' issue fixed.
+
+#### 02.08.2021
+#### Version 14.0.3.13.11
+#### UPDT
+- Account Parent Group added
+
+#### 13.08.2021
+#### Version 14.0.3.13.12
+#### UPDT
+- Dashboard issue fixed, 'state' field is ambigous
+
+#### 18.08.2021
+#### Version 14.0.3.13.13
+#### UPDT
+- Reconciliation issue fixed

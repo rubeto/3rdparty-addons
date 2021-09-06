@@ -6,25 +6,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-05 04:36+0000\n"
-"PO-Revision-Date: 2021-07-04 01:39-0300\n"
-"Last-Translator: RMF\n"
+"POT-Creation-Date: 2021-09-04 00:42+0000\n"
+"PO-Revision-Date: 2021-09-04 00:42+0000\n"
+"Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
-"Language: es_ES\n"
-"X-Generator: Poedit 3.0\n"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_asset.py:0 code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid " (copy)"
 msgstr " (Copia)"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_asset.py:0 code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid " (grouped)"
 msgstr " (Agrupado)"
@@ -45,10 +43,21 @@ msgid "# of Installment Lines"
 msgstr "Nro de líneas de cuotas"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/credit_limit.py:0 code:addons/language_translation/base_accounting_kit/models/credit_limit.py:0
+#: code:addons/base_accounting_kit/models/credit_limit.py:0
+#: code:addons/base_accounting_kit/models/credit_limit.py:0
 #, python-format
 msgid "%s is in  Blocking Stage and has a due amount of %s %s to pay"
 msgstr "% s está bloqueado y tiene un monto adeudado de% s% s para pagar"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "07/08/2020"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "08/07/2020"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
@@ -76,6 +85,11 @@ msgid ": Trial Balance"
 msgstr ": Balance de Comprobación"
 
 #. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_form_view
+msgid "<b>Customer Followup</b>"
+msgstr ""
+
+#. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
 msgid ""
 "<br/>\n"
@@ -85,8 +99,108 @@ msgstr ""
 "                                    <strong>Fecha hasta:</strong>"
 
 #. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.background
+msgid "<i class=\"fa fa-at\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
+msgstr ""
+
+#. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_kanban
 msgid "<i class=\"fa fa-building\" role=\"img\" aria-label=\"Enterprise\"/>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.background
+msgid "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Fiscal number\"/>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.background
+msgid "<i class=\"fa fa-globe\" role=\"img\" aria-label=\"Website\" title=\"Website\"/>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.background
+msgid "<i class=\"fa fa-phone\" role=\"img\" aria-label=\"Phone\" title=\"Phone\"/>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span class=\"text-nowrap\">$ 18,750.00</span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid ""
+"<span class=\"text-nowrap\">$ <span class=\"oe_currency_value\">\n"
+"                                                       143,750.00</span></span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid ""
+"<span class=\"text-nowrap\">$ <span "
+"class=\"oe_currency_value\">117,500.00</span></span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid ""
+"<span class=\"text-nowrap\">$ <span "
+"class=\"oe_currency_value\">7,500.00</span></span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span class=\"text-nowrap\">1,500.00</span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span class=\"text-nowrap\">23,500.00</span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span class=\"text-nowrap\">Tax 15%</span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid ""
+"<span class=\"w-100 o_force_ltr\" itemprop=\"streetAddress\">77 Santa Barbara\n"
+"                                                   Rd<br/>Pleasant Hill CA 94523<br/>United States</span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded\">Amount</span>\n"
+"                                    <span groups=\"account.group_show_line_subtotals_tax_included\">Total Price</span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span id=\"line_tax_ids\">15.00%</span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span itemprop=\"name\">Deco Addict</span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span>$ <span class=\"oe_currency_value\">125,000.00</span></span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span>5.000</span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span>Amount</span>"
 msgstr ""
 
 #. module: base_accounting_kit
@@ -95,60 +209,156 @@ msgid "<span>Comp</span>"
 msgstr ""
 
 #. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<span>Description</span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<span>Disc.%</span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid ""
+"<span>Invoice</span>\n"
+"                           <span>INV/2020/07/0003</span>"
+msgstr ""
+
+#. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
 msgid "<span>Not due</span>"
 msgstr "<span> No vencido </span>"
 
 #. module: base_accounting_kit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
-msgid "<strong>Balance</strong>"
-msgstr "<strong>Balance</strong>"
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span>Payment terms: 300 Days</span>"
+msgstr ""
 
 #. module: base_accounting_kit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<span>Quantity</span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid "<span>Sample Name</span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<span>Taxes</span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<span>Unit Price</span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid ""
+"<span>[FURN_8220] Four Person Desk<br/>\n"
+"                                       Four person modern office workstation</span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid ""
+"<span>[FURN_8999] Three-Seat Sofa<br/>\n"
+"                                       Three Seater Sofa with Lounger in Steel Grey Colour</span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid ""
+"<strong class=\"text-center\">Scan me with your banking "
+"app.</strong><br/><br/>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong>Amount Due</strong>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+msgid "<strong>Balance</strong>"
+msgstr "<strong> Saldo </strong>"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
 msgid "<strong>Company:</strong>"
-msgstr "<strong>Empresa:</strong>"
+msgstr "<strong> Empresa: </strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
 msgid "<strong>Credit</strong>"
-msgstr "<strong>Crédito</strong>"
+msgstr "<strong> Crédito </strong>"
 
 #. module: base_accounting_kit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong>Customer Code:</strong>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "<strong>Date from :</strong>"
-msgstr "<strong>Desde:</strong>"
+msgstr "<strong> Fecha de: </strong>"
 
 #. module: base_accounting_kit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "<strong>Date to :</strong>"
-msgstr "<strong>Hasta:</strong>"
+msgstr "<strong> Fecha hasta: </strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
 msgid "<strong>Debit</strong>"
-msgstr "<strong>Débito</strong>"
+msgstr "<strong> Débito </strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
-#, fuzzy
 msgid "<strong>Display Account:</strong>"
 msgstr "<strong> Cuenta de Display: </strong>"
 
 #. module: base_accounting_kit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
-#, fuzzy
 msgid "<strong>Display Account</strong>"
 msgstr "<strong> Mostrar cuenta </strong>"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong>Due Date:</strong>"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
@@ -156,15 +366,28 @@ msgid "<strong>Entries Sorted By:</strong>"
 msgstr "<strong> Entradas ordenadas por: </strong>"
 
 #. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong>Incoterm: </strong>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong>Invoice Date:</strong>"
+msgstr ""
+
+#. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
 msgid "<strong>Journal:</strong>"
 msgstr "<strong> Diario: </strong>"
 
 #. module: base_accounting_kit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
 msgid "<strong>Journals:</strong>"
-msgstr "<strong> Diarios: </strong>"
+msgstr "<strong> Revistas: </strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
@@ -174,7 +397,7 @@ msgstr "<strong>Nombre</strong>"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
 msgid "<strong>Partner's:</strong>"
-msgstr "<strong>del Socio:</strong>"
+msgstr "<strong> Nombre </strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
@@ -184,13 +407,24 @@ msgstr "<strong>Duración del período (días)</strong>"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
 msgid "<strong>Purchase</strong>"
-msgstr "<strong>Compras</strong>"
+msgstr "<strong> Compra </strong>"
 
 #. module: base_accounting_kit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong>Reference:</strong>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
 msgid "<strong>Sorted By:</strong>"
 msgstr "<strong> Ordenado por: </strong>"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong>Source:</strong>"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
@@ -198,43 +432,68 @@ msgid "<strong>Start Date:</strong>"
 msgstr "<strong> Fecha de inicio: </strong>"
 
 #. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "<strong>Subtotal</strong>"
+msgstr ""
+
+#. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "<strong>Target Moves:</strong>"
 msgstr "<strong> Movimientos de destino: </strong>"
 
 #. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
 msgid "<strong>Total</strong>"
 msgstr "<strong> Total </strong>"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/payment_matching.py:0 code:addons/language_translation/base_accounting_kit/models/payment_matching.py:0
+#: code:addons/base_accounting_kit/models/payment_matching.py:0
 #, python-format
 msgid "A reconciliation must involve at least 2 move lines."
 msgstr "Una reconciliación debe incluir al menos 2 líneas de movimiento."
 
 #. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/payment_matching.py:0
+#: code:addons/base_accounting_kit/models/payment_matching.py:0
+#, python-format
+msgid "A selected move line was already reconciled."
+msgstr ""
+
+#. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_res_partner__warning_stage
 #: model:ir.model.fields,help:base_accounting_kit.field_res_users__warning_stage
-msgid "A warning message will appear once the selected customer is crossed warning amount. Set its value to 0.00 to disable this feature"
+msgid ""
+"A warning message will appear once the selected customer is crossed warning "
+"amount. Set its value to 0.00 to disable this feature"
 msgstr ""
-"Aparecerá un mensaje de advertencia una vez que el cliente seleccionado haya superado la cantidad de advertencia. Establezca su valor en 0.00 para "
+"Aparecerá un mensaje de advertencia una vez que el cliente seleccionado haya"
+" superado la cantidad de advertencia. Establezca su valor en 0.00 para "
 "deshabilitar esta función"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0 code:addons/base_accounting_kit/static/src/js/payment_render.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/payment_render.js:0
+#: code:addons/base_accounting_kit/static/src/js/payment_render.js:0
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/js/account_dashboard.js:0
-#: code:addons/language_translation/base_accounting_kit/static/src/js/payment_render.js:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: model:ir.model,name:base_accounting_kit.model_account_account model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: model:ir.model,name:base_accounting_kit.model_account_account
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 #, python-format
 msgid "Account"
 msgstr "Cuenta"
@@ -245,7 +504,8 @@ msgid "Account Aged Trial balance Report"
 msgstr "Informe de saldo de prueba de la cuenta"
 
 #. module: base_accounting_kit
-#: model:ir.actions.server,name:base_accounting_kit.account_asset_cron_ir_actions_server model:ir.cron,cron_name:base_accounting_kit.account_asset_cron
+#: model:ir.actions.server,name:base_accounting_kit.account_asset_cron_ir_actions_server
+#: model:ir.cron,cron_name:base_accounting_kit.account_asset_cron
 #: model:ir.cron,name:base_accounting_kit.account_asset_cron
 msgid "Account Asset: Generate asset entries"
 msgstr "Activo de la cuenta: generar entradas de activos"
@@ -253,12 +513,12 @@ msgstr "Activo de la cuenta: generar entradas de activos"
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_bank_book_report
 msgid "Account Bank Book Report"
-msgstr "Informe Libro de Bancos"
+msgstr "Informe del libro bancario de la cuenta"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_cash_book_report
 msgid "Account Cash Book Report"
-msgstr "Informe Libro de Caja"
+msgstr "Informe del libro de caja de la cuenta"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_common_account_report
@@ -284,6 +544,12 @@ msgstr "Informe del libro diario de la cuenta"
 #: model:ir.model,name:base_accounting_kit.model_account_followup
 msgid "Account Follow-up"
 msgstr "Seguimiento de cuenta"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_group
+#: model:ir.ui.menu,name:base_accounting_kit.menu_account_group
+msgid "Account Groups"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_report_partner_ledger
@@ -340,22 +606,35 @@ msgstr "Tipos de cuenta"
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__account_depreciation_id
 msgid "Account used in the depreciation entries, to decrease the asset value."
-msgstr "Cuenta utilizada en los asientos de depreciación, para disminuir el valor del activo."
+msgstr ""
+"Cuenta utilizada en los asientos de depreciación, para disminuir el valor "
+"del activo."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__account_depreciation_expense_id
-msgid "Account used in the periodical entries, to record a part of the asset as expense."
-msgstr "Cuenta utilizada en los asientos periódicos, para registrar una parte del activo como gasto."
+msgid ""
+"Account used in the periodical entries, to record a part of the asset as "
+"expense."
+msgstr ""
+"Cuenta utilizada en los asientos periódicos, para registrar una parte del "
+"activo como gasto."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__account_asset_id
-msgid "Account used to record the purchase of the asset at its original price."
-msgstr "Cuenta utilizada para registrar la compra del activo a su precio original."
+msgid ""
+"Account used to record the purchase of the asset at its original price."
+msgstr ""
+"Cuenta utilizada para registrar la compra del activo a su precio original."
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.res_config_settings_view_accounting_kit
 msgid "Accounting"
 msgstr "Contabilidad"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement__accounting_date
+msgid "Accounting Date"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_recurring_payments_form_view
@@ -369,7 +648,7 @@ msgstr "Pago recurrente contable"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/js/account_asset.js:0 code:addons/language_translation/base_accounting_kit/static/src/js/account_asset.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_asset.js:0
 #, python-format
 msgid "Accounting entries waiting for manual verification"
 msgstr "Entradas contables en espera de verificación manual"
@@ -412,7 +691,8 @@ msgstr "Después"
 
 #. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_account_aged_balance_view
-#: model:ir.actions.report,name:base_accounting_kit.action_report_aged_partner_balance model:ir.ui.menu,name:base_accounting_kit.menu_aged_trial_balance
+#: model:ir.actions.report,name:base_accounting_kit.action_report_aged_partner_balance
+#: model:ir.ui.menu,name:base_accounting_kit.menu_aged_trial_balance
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
 msgid "Aged Partner Balance"
 msgstr "Saldo de pareja envejecida"
@@ -424,17 +704,17 @@ msgstr "Informe de saldo de socios envejecidos"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/xml/template.xml:0 code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Aged Payable"
-msgstr "Cuentas por pagar vencidas"
+msgstr "Pagadero envejecido"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/xml/template.xml:0 code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Aged Receivable"
-msgstr "Cuentas por cobrar vencidas"
+msgstr "Cuenta por cobrar envejecida"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_balance_report__display_account__all
@@ -450,10 +730,14 @@ msgstr "Todos"
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_cash_book_report__target_move__all
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_day_book_report__target_move__all
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "All Entries"
 msgstr "Todas las entradas"
@@ -463,10 +747,14 @@ msgstr "Todas las entradas"
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_cash_book_report__target_move__posted
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_day_book_report__target_move__posted
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "All Posted Entries"
 msgstr "Todas las entradas publicadas"
@@ -477,7 +765,8 @@ msgid "All accounts"
 msgstr "Todas las cuentas"
 
 #. module: base_accounting_kit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
 msgid "All accounts'"
 msgstr "Todas las cuentas"
@@ -485,16 +774,20 @@ msgstr "Todas las cuentas"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
-msgid "All invoices and payments have been matched, your accounts' balances are clean."
-msgstr "Todas las facturas y pagos se han conciliado, los saldos de sus cuentas están limpios."
+msgid ""
+"All invoices and payments have been matched, your accounts' balances are "
+"clean."
+msgstr ""
+"Todas las facturas y pagos se han conciliado, los saldos de sus cuentas "
+"están limpios."
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/models/account_asset.py:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__amount
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__amount
 #, python-format
@@ -514,7 +807,6 @@ msgstr "Cantidad de líneas de pago a plazos"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Analytic Acc."
 msgstr ""
@@ -528,7 +820,6 @@ msgstr "Cuenta analítica"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Analytic Tags."
 msgstr "Etiquetas analíticas."
@@ -603,7 +894,7 @@ msgid "Asset category"
 msgstr "Categoría de activo"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_asset.py:0 code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid "Asset created"
 msgstr "Activo creado"
@@ -614,7 +905,7 @@ msgid "Asset depreciation line"
 msgstr "Línea de depreciación de activos"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_asset.py:0 code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid "Asset sold or disposed. Accounting entry awaiting for validation."
 msgstr "Activo vendido o enajenado. Asiento contable pendiente de validación."
@@ -632,10 +923,11 @@ msgstr "Reconocimiento de activos / ingresos"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_purchase_tree
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
 msgid "Assets"
-msgstr "Activos"
+msgstr "Bienes"
 
 #. module: base_accounting_kit
-#: model:ir.actions.act_window,name:base_accounting_kit.action_asset_asset_report model:ir.model,name:base_accounting_kit.model_asset_asset_report
+#: model:ir.actions.act_window,name:base_accounting_kit.action_asset_asset_report
+#: model:ir.model,name:base_accounting_kit.model_asset_asset_report
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.action_account_asset_report_graph
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.action_account_asset_report_pivot
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
@@ -696,30 +988,33 @@ msgstr "Formateo automático"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/xml/template.xml:0 code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "BANK AND CASH BALANCE"
-msgstr "SALDO DE CAJA Y BANCOS"
+msgstr "BANCO Y SALDO EN EFECTIVO"
 
 #. module: base_accounting_kit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "Balance"
-msgstr "Balance"
+msgstr "Equilibrar"
 
 #. module: base_accounting_kit
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_balancesheet0
 #: model:ir.actions.act_window,name:base_accounting_kit.action_balance_sheet_report
 #: model:ir.ui.menu,name:base_accounting_kit._account_financial_reports_balance_sheet
 msgid "Balance Sheet"
-msgstr "Hoja de Balance"
+msgstr "Hoja de balance"
 
 #. module: base_accounting_kit
 #: model:ir.ui.menu,name:base_accounting_kit.account_bank_book_menu
 msgid "Bank Book"
-msgstr "Libro de Bancos"
+msgstr "Banco de libros"
 
 #. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_account_bank_book_view
@@ -727,21 +1022,35 @@ msgstr "Libro de Bancos"
 #: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_bank_book
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_bank_book_form_view
 msgid "Bank Book Report"
-msgstr "Informe Libro de Bancos"
+msgstr "Informe del libro bancario"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/js/payment_matching.js:0
-#: code:addons/language_translation/base_accounting_kit/static/src/js/payment_matching.js:0
 #, python-format
 msgid "Bank Reconciliation"
 msgstr "Conciliación bancaria"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_company__account_bank_reconciliation_start
+msgid "Bank Reconciliation Threshold"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__bank_reference
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment_register__bank_reference
 msgid "Bank Reference"
 msgstr "Referencia bancaria"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_bank_statement
+msgid "Bank Statement"
+msgstr "Extracto bancario"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_bank_statement_line
+msgid "Bank Statement Line"
+msgstr "Línea de extracto bancario"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
@@ -755,6 +1064,23 @@ msgid "Blocking Amount"
 msgstr "Cantidad de bloqueo"
 
 #. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_import_journal_creation__body_text_position
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__body_text_position
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__body_text_position
+msgid "Body Text Position"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__body_text_position__bl
+msgid "Bottom Left"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__body_text_position__br
+msgid "Bottom Right"
+msgstr ""
+
+#. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_aged_balance_view
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_bank_book_form_view
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_cash_book_form_view
@@ -762,16 +1088,25 @@ msgstr "Cantidad de bloqueo"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_update_lock_date_form_view
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.asset_modify_form
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_depreciation_confirmation_wizard
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_multiple_invoice_layout
 msgid "Cancel"
 msgstr "Cancelar"
 
 #. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "Cancelled Invoice"
+msgstr ""
+
+#. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_res_partner__blocking_stage
 #: model:ir.model.fields,help:base_accounting_kit.field_res_users__blocking_stage
-msgid "Cannot make sales once the selected customer is crossed blocking amount.Set its value to 0.00 to disable this feature"
+msgid ""
+"Cannot make sales once the selected customer is crossed blocking amount.Set "
+"its value to 0.00 to disable this feature"
 msgstr ""
-"No se pueden realizar ventas una vez que el cliente seleccionado ha superado la cantidad de bloqueo. Establezca su valor en 0.00 para deshabilitar "
-"esta función"
+"No se pueden realizar ventas una vez que el cliente seleccionado ha superado"
+" la cantidad de bloqueo. Establezca su valor en 0.00 para deshabilitar esta "
+"función"
 
 #. module: base_accounting_kit
 #: model:ir.ui.menu,name:base_accounting_kit.account_cash_book_menu
@@ -785,25 +1120,26 @@ msgstr "Libro de Caja"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_cash_book_form_view
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_day_book_form_view
 msgid "Cash Book Report"
-msgstr "Informe Libro de Caja"
+msgstr "Informe del libro de caja"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_cash_flow_report
 #: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_cash_flow
 msgid "Cash Flow Report"
-msgstr "Informe de Flujo de Caja"
+msgstr "Informe de flujo de caja"
 
 #. module: base_accounting_kit
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_cash_flow0
-#: model:ir.actions.act_window,name:base_accounting_kit.action_cash_flow_report model:ir.actions.report,name:base_accounting_kit.action_report_cash_flow
+#: model:ir.actions.act_window,name:base_accounting_kit.action_cash_flow_report
+#: model:ir.actions.report,name:base_accounting_kit.action_report_cash_flow
 #: model:ir.ui.menu,name:base_accounting_kit.menu_account_cash_flow_report
 msgid "Cash Flow Statement"
-msgstr "Estado de Flujo de Caja"
+msgstr "Estado de flujo de efectivo"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_account__cash_flow_type
 msgid "Cash Flow type"
-msgstr "Tipo de Flujo de Caja"
+msgstr "Tipo de flujo de caja"
 
 #. module: base_accounting_kit
 #: model:account.financial.report,name:base_accounting_kit.cash_in_financial0
@@ -832,9 +1168,13 @@ msgid "Category of asset"
 msgstr "Categoría de activo"
 
 #. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__text_align__center
+msgid "Center"
+msgstr ""
+
+#. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Check all"
 msgstr "Comprobar todo"
@@ -842,31 +1182,33 @@ msgstr "Comprobar todo"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Check that you have no bank statement lines to"
 msgstr "Compruebe que no tiene líneas de extracto bancario"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__open_asset
-msgid "Check this if you want to automatically confirm the assets of this category when created by invoices."
-msgstr "Marque aquí si desea confirmar automáticamente los activos de esta categoría cuando se crean mediante facturas."
+msgid ""
+"Check this if you want to automatically confirm the assets of this category "
+"when created by invoices."
+msgstr ""
+"Marque aquí si desea confirmar automáticamente los activos de esta categoría"
+" cuando se crean mediante facturas."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__group_entries
 msgid "Check this if you want to group the generated entries by categories."
-msgstr "Marque aquí si desea agrupar las entradas generadas por categorías."
+msgstr "Marque esto si desea agrupar las entradas generadas por categorías."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__cheque_reference
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment_register__cheque_reference
 msgid "Cheque Reference"
-msgstr "Referencia del cheque"
+msgstr "Consultar referencia"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Choose counterpart or Create Write-off"
 msgstr "Elija una contraparte o cree una cancelación"
@@ -897,8 +1239,12 @@ msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_asset_depreciation_confirmation_wizard__date
-msgid "Choose the period for which you want to automatically post the depreciation lines of running assets"
-msgstr "Elija el período para el que desea contabilizar automáticamente las líneas de depreciación de los activos corrientes"
+msgid ""
+"Choose the period for which you want to automatically post the depreciation "
+"lines of running assets"
+msgstr ""
+"Elija el período para el que desea contabilizar automáticamente las líneas "
+"de depreciación de los activos corrientes"
 
 #. module: base_accounting_kit
 #: model_terms:ir.actions.act_window,help:base_accounting_kit.action_account_recurring_payments_view
@@ -908,7 +1254,7 @@ msgstr "Haga clic para crear una nueva plantilla de pago recurrente"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__state__close
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__asset_asset_report__state__close
 #, python-format
@@ -918,7 +1264,6 @@ msgstr "Cerrar"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Close statement"
 msgstr "Declaración de cierre"
@@ -937,6 +1282,11 @@ msgstr "Código"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__label_filter
 msgid "Column Label"
 msgstr "Etiqueta de columna"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_res_company
+msgid "Companies"
+msgstr "Compañías"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__company_id
@@ -958,6 +1308,7 @@ msgstr "Etiqueta de columna"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__company_id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__company_id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__company_id
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
 msgid "Company"
 msgstr "Compañía"
@@ -965,7 +1316,7 @@ msgstr "Compañía"
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__name
 msgid "Company Name"
-msgstr "Nombre de Empresa"
+msgstr "nombre de empresa"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.cash_flow_report_view
@@ -994,6 +1345,16 @@ msgid "Config Settings"
 msgstr "Opciones de configuración"
 
 #. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_view_form
+msgid "Configure Copy Layout"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_multiple_invoice_layout_configurator
+msgid "Configure Copy layout"
+msgstr ""
+
+#. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 msgid "Confirm"
 msgstr "Confirmar"
@@ -1001,7 +1362,6 @@ msgstr "Confirmar"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Congrats, you're all done!"
 msgstr "¡Felicidades, ya terminaste!"
@@ -1012,9 +1372,13 @@ msgid "Contact"
 msgstr "Contacto"
 
 #. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.financial_report_cost_of_revenue
+msgid "Cost of Revenue"
+msgstr ""
+
+#. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Create a counterpart"
 msgstr "Crea una contraparte"
@@ -1022,21 +1386,18 @@ msgstr "Crea una contraparte"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Create model"
 msgstr "Crear modelo"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/wizard/asset_depreciation_confirmation_wizard.py:0
-#: code:addons/language_translation/base_accounting_kit/wizard/asset_depreciation_confirmation_wizard.py:0
 #, python-format
 msgid "Created Asset Moves"
 msgstr "Movimientos de activos creados"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/wizard/asset_depreciation_confirmation_wizard.py:0
-#: code:addons/language_translation/base_accounting_kit/wizard/asset_depreciation_confirmation_wizard.py:0
 #, python-format
 msgid "Created Revenue Moves"
 msgstr "Movimientos de ingresos creados"
@@ -1066,6 +1427,8 @@ msgstr "Movimientos de ingresos creados"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__create_uid
 #: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__create_uid
 #: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__create_uid
 msgid "Created by"
 msgstr "Creado por"
 
@@ -1094,14 +1457,20 @@ msgstr "Creado por"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__create_date
 #: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__create_date
 #: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__create_date
 msgid "Created on"
 msgstr "Creado el"
 
 #. module: base_accounting_kit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "Credit"
 msgstr "Crédito"
 
@@ -1122,16 +1491,24 @@ msgid "Credit Limit Enabled"
 msgstr "Límite de crédito habilitado"
 
 #. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "Credit Note"
+msgstr ""
+
+#. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__depreciated_value
 msgid "Cumulative Depreciation"
 msgstr "Depreciación acumulada"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_asset.py:0 code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/models/account_asset.py:0
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__currency_id
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 #, python-format
 msgid "Currency"
 msgstr "Moneda"
@@ -1153,15 +1530,14 @@ msgstr "Límite de crédito del cliente"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/xml/template.xml:0 code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Customer Invoice"
-msgstr "Facturas de Cliente"
+msgstr "Factura del cliente"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Customer/Vendor Matching"
 msgstr "Coincidencia de cliente / proveedor"
@@ -1172,17 +1548,14 @@ msgid "Daily Reports"
 msgstr "Informes diarios"
 
 #. module: base_accounting_kit
-#. openerp-web
-#: code:addons/base_accounting_kit/static/src/xml/template.xml:0 code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
 #: model:ir.ui.menu,name:base_accounting_kit.menu_accounting_dashboard
-#, python-format
 msgid "Dashboard"
-msgstr "Indicadores"
+msgstr "Tablero"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__date
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__date
 #: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__date
@@ -1191,9 +1564,12 @@ msgstr "Indicadores"
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_print_journal__sort_selection__date
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_general_ledger__sortby__sort_date
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__cash_flow_report__filter_cmp__filter_date
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 #, python-format
 msgid "Date"
 msgstr "Fecha"
@@ -1201,7 +1577,7 @@ msgstr "Fecha"
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__date_to_cmp
 msgid "Date End"
-msgstr "Fecha de fin"
+msgstr "Fecha fin"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__date_from_cmp
@@ -1227,7 +1603,7 @@ msgstr "Fecha de depreciación"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.cash_flow_report_view
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.financial_report_wiz_modified
 msgid "Dates"
-msgstr "Fechas"
+msgstr "fechas"
 
 #. module: base_accounting_kit
 #: model:ir.ui.menu,name:base_accounting_kit.account_day_book_menu
@@ -1251,10 +1627,14 @@ msgid "Days"
 msgstr "Dias"
 
 #. module: base_accounting_kit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "Debit"
 msgstr "Débito"
 
@@ -1283,7 +1663,7 @@ msgstr "Ingresos diferidos"
 #. module: base_accounting_kit
 #: model_terms:ir.actions.act_window,help:base_accounting_kit.action_account_followup_definition_form
 msgid "Define follow-up levels and their related actions"
-msgstr "Definir niveles de seguimiento y sus acciones relacionadas"
+msgstr "Definir niveles de seguimiento y sus acciones relacionadas."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__method__degressive
@@ -1355,13 +1735,13 @@ msgid "Depreciation Name"
 msgstr "Nombre de depreciación"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/wizard/asset_modify.py:0 code:addons/language_translation/base_accounting_kit/wizard/asset_modify.py:0
+#: code:addons/base_accounting_kit/wizard/asset_modify.py:0
 #, python-format
 msgid "Depreciation board modified"
 msgstr "Tablero de depreciación modificado"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_asset.py:0 code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid "Depreciation line posted."
 msgstr "Línea de depreciación contabilizada."
@@ -1369,7 +1749,6 @@ msgstr "Línea de depreciación contabilizada."
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__description
 #, python-format
 msgid "Description"
@@ -1408,6 +1787,8 @@ msgstr "Mostrar columnas de débito / crédito"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__display_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__display_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_line__display_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__display_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__display_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__display_name
@@ -1433,6 +1814,8 @@ msgstr "Mostrar columnas de débito / crédito"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__display_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__display_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__display_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_product_template__display_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_day_book_report_template__display_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_agedpartnerbalance__display_name
@@ -1442,14 +1825,23 @@ msgstr "Mostrar columnas de débito / crédito"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_financial__display_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_general_ledger__display_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_journal_audit__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_multiple_invoice__display_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_partnerledger__display_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_tax__display_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_trial_balance__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_company__display_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_config_settings__display_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__display_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_sale_order__display_name
 msgid "Display Name"
 msgstr "Nombre mostrado"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_import_journal_creation__multiple_invoice_type
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__multiple_invoice_type
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__multiple_invoice_type
+msgid "Display Type"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__display_detail__detail_flat
@@ -1467,19 +1859,24 @@ msgid "Display details"
 msgstr "Mostrar detalles"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_asset.py:0 code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid "Disposal Move"
 msgstr "Movimiento de eliminación"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_asset.py:0 code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid "Disposal Moves"
 msgstr "Movimientos de eliminación"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_asset.py:0 code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__text_position__body
+msgid "Document Body"
+msgstr ""
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid "Document closed."
 msgstr "Documento cerrado."
@@ -1493,9 +1890,13 @@ msgid "Draft"
 msgstr "Sequía"
 
 #. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "Draft Invoice"
+msgstr ""
+
+#. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Due Date"
 msgstr "Fecha de vencimiento"
@@ -1518,7 +1919,7 @@ msgid "Effective date of PDC"
 msgstr "Fecha efectiva de cheque postdata"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/payment_matching.py:0 code:addons/language_translation/base_accounting_kit/models/payment_matching.py:0
+#: code:addons/base_accounting_kit/models/payment_matching.py:0
 #, python-format
 msgid "Either pass both debit and credit or none."
 msgstr "Pase tanto el débito como el crédito o ninguno."
@@ -1570,15 +1971,45 @@ msgid "Entries Sorted by"
 msgstr "Asientos ordenados por"
 
 #. module: base_accounting_kit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
 msgid "Entry Label"
 msgstr "Etiqueta de entrada"
 
 #. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Este año"
+msgstr ""
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Este mes"
+msgstr ""
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_expense0
+#, python-format
 msgid "Expense"
-msgstr "Gasto"
+msgstr "Gastos"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
@@ -1588,7 +2019,9 @@ msgstr "Filtros extendidos ..."
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "External link"
 msgstr "Enlace externo"
@@ -1596,12 +2029,11 @@ msgstr "Enlace externo"
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__filter_cmp
 msgid "Filter by"
-msgstr "Filtrar por"
+msgstr "Filtrado por"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Filter on account, label, partner, amount,..."
 msgstr "Filtrar por cuenta, etiqueta, socio, importe, ..."
@@ -1620,12 +2052,12 @@ msgstr "Estilo de informe financiero"
 #: model:ir.actions.act_window,name:base_accounting_kit.action_account_financial_report_tree
 #: model:ir.model,name:base_accounting_kit.model_financial_report
 msgid "Financial Reports"
-msgstr "Informes financieros"
+msgstr "Reportes financieros"
 
 #. module: base_accounting_kit
 #: model:ir.actions.report,name:base_accounting_kit.financial_report_pdf
 msgid "Financial reports"
-msgstr "Informes financieros"
+msgstr "Reportes financieros"
 
 #. module: base_accounting_kit
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_financing_activity1
@@ -1698,15 +2130,24 @@ msgid "Followup status"
 msgstr "Estado de seguimiento"
 
 #. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__text_position__footer
+msgid "Footer"
+msgstr ""
+
+#. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_financial_report__sign
 msgid ""
-"For accounts that are typically more debited than credited and that you would like to print as negative amounts in your reports, you should reverse "
-"the sign of the balance; e.g.: Expense account. The same applies for accounts that are typically more credited than debited and that you would like to "
-"print as positive amounts in your reports; e.g.: Income account."
+"For accounts that are typically more debited than credited and that you "
+"would like to print as negative amounts in your reports, you should reverse "
+"the sign of the balance; e.g.: Expense account. The same applies for "
+"accounts that are typically more credited than debited and that you would "
+"like to print as positive amounts in your reports; e.g.: Income account."
 msgstr ""
-"En el caso de las cuentas que suelen estar más debitadas que acreditadas y que le gustaría imprimir como cantidades negativas en sus informes, debe "
-"invertir el signo del saldo; ej .: cuenta de gastos. Lo mismo se aplica a las cuentas que suelen estar más acreditadas que debitadas y que le gustaría "
-"imprimir como importes positivos en sus informes; ej .: cuenta de ingresos."
+"En el caso de las cuentas que suelen estar más debitadas que acreditadas y "
+"que le gustaría imprimir como cantidades negativas en sus informes, debe "
+"invertir el signo del saldo; ej .: cuenta de gastos. Lo mismo se aplica a "
+"las cuentas que suelen estar más acreditadas que debitadas y que le gustaría"
+" imprimir como importes positivos en sus informes; ej .: cuenta de ingresos."
 
 #. module: base_accounting_kit
 #: model_terms:ir.actions.act_window,help:base_accounting_kit.action_account_followup_definition_form
@@ -1720,24 +2161,19 @@ msgstr ""
 "                el cliente."
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/report/account_bank_book.py:0 code:addons/base_accounting_kit/report/account_cash_book.py:0
-#: code:addons/base_accounting_kit/report/account_day_book.py:0 code:addons/base_accounting_kit/report/cash_flow_report.py:0
-#: code:addons/base_accounting_kit/report/general_ledger_report.py:0 code:addons/base_accounting_kit/report/report_aged_partner.py:0
-#: code:addons/base_accounting_kit/report/report_journal_audit.py:0 code:addons/base_accounting_kit/report/report_partner_ledger.py:0
-#: code:addons/base_accounting_kit/report/report_tax.py:0 code:addons/base_accounting_kit/report/report_trial_balance.py:0
-#: code:addons/language_translation/base_accounting_kit/report/account_bank_book.py:0
-#: code:addons/language_translation/base_accounting_kit/report/account_cash_book.py:0
-#: code:addons/language_translation/base_accounting_kit/report/account_day_book.py:0
-#: code:addons/language_translation/base_accounting_kit/report/cash_flow_report.py:0
-#: code:addons/language_translation/base_accounting_kit/report/general_ledger_report.py:0
-#: code:addons/language_translation/base_accounting_kit/report/report_aged_partner.py:0
-#: code:addons/language_translation/base_accounting_kit/report/report_journal_audit.py:0
-#: code:addons/language_translation/base_accounting_kit/report/report_partner_ledger.py:0
-#: code:addons/language_translation/base_accounting_kit/report/report_tax.py:0
-#: code:addons/language_translation/base_accounting_kit/report/report_trial_balance.py:0
+#: code:addons/base_accounting_kit/report/account_bank_book.py:0
+#: code:addons/base_accounting_kit/report/account_cash_book.py:0
+#: code:addons/base_accounting_kit/report/account_day_book.py:0
+#: code:addons/base_accounting_kit/report/cash_flow_report.py:0
+#: code:addons/base_accounting_kit/report/general_ledger_report.py:0
+#: code:addons/base_accounting_kit/report/report_aged_partner.py:0
+#: code:addons/base_accounting_kit/report/report_journal_audit.py:0
+#: code:addons/base_accounting_kit/report/report_partner_ledger.py:0
+#: code:addons/base_accounting_kit/report/report_tax.py:0
+#: code:addons/base_accounting_kit/report/report_trial_balance.py:0
 #, python-format
 msgid "Form content is missing, this report cannot be printed."
-msgstr "Falta el contenido del formulario, este informe no se puede imprimir."
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__view_format
@@ -1747,7 +2183,6 @@ msgstr "Formato"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "From now on, you may want to:"
 msgstr "A partir de ahora, es posible que desee:"
@@ -1763,7 +2198,8 @@ msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_account_general_ledger_menu
-#: model:ir.actions.report,name:base_accounting_kit.action_report_general_ledger model:ir.ui.menu,name:base_accounting_kit.menu_general_ledger
+#: model:ir.actions.report,name:base_accounting_kit.action_report_general_ledger
+#: model:ir.ui.menu,name:base_accounting_kit.menu_general_ledger
 msgid "General Ledger"
 msgstr "Libro mayor"
 
@@ -1790,7 +2226,8 @@ msgstr "Generar diario como"
 
 #. module: base_accounting_kit
 #: model:ir.actions.server,name:base_accounting_kit.recurring_template_cron_ir_actions_server
-#: model:ir.cron,cron_name:base_accounting_kit.recurring_template_cron model:ir.cron,name:base_accounting_kit.recurring_template_cron
+#: model:ir.cron,cron_name:base_accounting_kit.recurring_template_cron
+#: model:ir.cron,name:base_accounting_kit.recurring_template_cron
 msgid "Generate Recurring Entries"
 msgstr "Generar entradas recurrentes"
 
@@ -1802,12 +2239,12 @@ msgstr "Declaraciones genéricas"
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_followup_line__sequence
 msgid "Gives the sequence order when displaying a list of follow-up lines."
-msgstr "Da el orden de secuencia al mostrar una lista de líneas de seguimiento."
+msgstr ""
+"Da el orden de secuencia al mostrar una lista de líneas de seguimiento."
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Go to bank statement(s)"
 msgstr "Ir a los extractos bancarios"
@@ -1815,7 +2252,6 @@ msgstr "Ir a los extractos bancarios"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Good Job!"
 msgstr "¡Buen trabajo!"
@@ -1824,6 +2260,11 @@ msgstr "¡Buen trabajo!"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__gross_value
 msgid "Gross Amount"
 msgstr "Cantidad bruta"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.financial_report_gross_profit
+msgid "Gross Profit"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__value
@@ -1857,14 +2298,18 @@ msgstr "Entradas de diario de grupo"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_move__has_due
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__has_due
 #: model:ir.model.fields,field_description:base_accounting_kit.field_sale_order__has_due
-#, fuzzy
 msgid "Has Due"
 msgstr "Tiene debido"
 
 #. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__text_position__header
+msgid "Header"
+msgstr ""
+
+#. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__financial_report__view_format__horizontal
 msgid "Horizontal"
-msgstr "Horizontal"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_account__id
@@ -1874,6 +2319,8 @@ msgstr "Horizontal"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_line__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__id
@@ -1899,6 +2346,8 @@ msgstr "Horizontal"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_product_template__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_day_book_report_template__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_agedpartnerbalance__id
@@ -1908,18 +2357,20 @@ msgstr "Horizontal"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_financial__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_general_ledger__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_journal_audit__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_multiple_invoice__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_partnerledger__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_tax__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_trial_balance__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_company__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_config_settings__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_sale_order__id
 msgid "ID"
-msgstr "ID"
+msgstr "ID (identificación)"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/xml/template.xml:0 code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "INVOICES"
 msgstr "FACTURAS"
@@ -1937,25 +2388,37 @@ msgid "If checked, some messages have a delivery error."
 msgstr "Si está marcado, algunos mensajes tienen un error de entrega."
 
 #. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_bank_statement__accounting_date
+msgid ""
+"If set, the accounting entries created during the bank statement reconciliation process will be created at this date.\n"
+"This is useful if the accounting period in which the entries should normally be booked is already closed."
+msgstr ""
+
+#. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_bank_book_report__initial_balance
 #: model:ir.model.fields,help:base_accounting_kit.field_account_cash_book_report__initial_balance
 #: model:ir.model.fields,help:base_accounting_kit.field_account_report_general_ledger__initial_balance
-msgid "If you selected date, this field allow you to add a row to display the amount of debit/credit/balance that precedes the filter you've set."
+msgid ""
+"If you selected date, this field allow you to add a row to display the "
+"amount of debit/credit/balance that precedes the filter you've set."
 msgstr ""
-"Si seleccionó la fecha, este campo le permite agregar una fila para mostrar la cantidad de débito / crédito / saldo que precede al filtro que ha "
+"Si seleccionó la fecha, este campo le permite agregar una fila para mostrar "
+"la cantidad de débito / crédito / saldo que precede al filtro que ha "
 "establecido."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__res_partner__followup_status__in_need_of_action
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_search_view
 msgid "In need of action"
-msgstr "Necesita acción"
+msgstr "Necesito acción"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_payment.py:0 code:addons/language_translation/base_accounting_kit/models/account_payment.py:0
+#: code:addons/base_accounting_kit/models/account_payment.py:0
 #, python-format
-msgid "In order to print multiple checks at once, they must belong to the same bank journal."
-msgstr "Para imprimir varios cheques a la vez, deben pertenecer al mismo diario bancario."
+msgid ""
+"In order to print multiple checks at once, they must belong to the same bank"
+" journal."
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__initial_balance
@@ -1965,30 +2428,50 @@ msgid "Include Initial Balances"
 msgstr "Incluir saldos iniciales"
 
 #. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_income0
+#, python-format
 msgid "Income"
 msgstr "Ingresos"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/xml/template.xml:0 code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
-msgid "Income/Expense"
-msgstr "Ingresos / Gastos"
+msgid "Indicadores"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__prorata
 msgid ""
-"Indicates that the first depreciation entry for this asset have to be done from the purchase date instead of the first January / Start date of fiscal "
+"Indicates that the first depreciation entry for this asset have to be done "
+"from the purchase date instead of the first January / Start date of fiscal "
 "year"
 msgstr ""
-"Indica que la primera entrada de depreciación para este activo debe realizarse a partir de la fecha de compra en lugar del primero de enero / fecha de "
-"inicio del año fiscal"
+"Indica que la primera entrada de depreciación para este activo debe "
+"realizarse a partir de la fecha de compra en lugar del primero de enero / "
+"fecha de inicio del año fiscal"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__prorata
-msgid "Indicates that the first depreciation entry for this asset have to be done from the purchase date instead of the first of January"
-msgstr "Indica que la primera entrada de depreciación para este activo debe realizarse a partir de la fecha de compra en lugar del primero de enero"
+msgid ""
+"Indicates that the first depreciation entry for this asset have to be done "
+"from the purchase date instead of the first of January"
+msgstr ""
+"Indica que la primera entrada de depreciación para este activo debe "
+"realizarse a partir de la fecha de compra en lugar del primero de enero"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Ingresos/Gastos"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_investing_activity0
@@ -1998,12 +2481,20 @@ msgstr "Actividades de inversión"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
-#: code:addons/language_translation/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__invoice_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 #, python-format
 msgid "Invoice"
 msgstr "Factura"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice__copy_name
+msgid "Invoice Copy Name"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__invoice_list
@@ -2027,14 +2518,21 @@ msgstr "Es una advertencia"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_report_partner_ledger__amount_currency
-msgid "It adds the currency column on report if the currency differs from the company currency."
-msgstr "Agrega la columna de moneda en el informe si la moneda difiere de la moneda de la empresa."
+msgid ""
+"It adds the currency column on report if the currency differs from the "
+"company currency."
+msgstr ""
+"Agrega la columna de moneda en el informe si la moneda difiere de la moneda "
+"de la empresa."
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/payment_matching.py:0 code:addons/language_translation/base_accounting_kit/models/payment_matching.py:0
+#: code:addons/base_accounting_kit/models/payment_matching.py:0
 #, python-format
-msgid "It is mandatory to specify an account and a journal to create a write-off."
-msgstr "Es obligatorio especificar una cuenta y un diario para crear una cancelación."
+msgid ""
+"It is mandatory to specify an account and a journal to create a write-off."
+msgstr ""
+"Es obligatorio especificar una cuenta y un diario para crear una "
+"cancelación."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__salvage_value
@@ -2050,22 +2548,26 @@ msgstr "Texto en cursiva (más pequeño)"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.payment_matching_view
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 msgid "Items"
-msgstr "Elementos"
+msgstr "Artículos"
 
 #. module: base_accounting_kit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 msgid "JRNL"
-msgstr "JRNL"
+msgstr ""
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #: model:ir.model,name:base_accounting_kit.model_account_journal
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__journal_id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__journal_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice__journal_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__journal_id
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
 #, python-format
 msgid "Journal"
@@ -2079,16 +2581,21 @@ msgid "Journal & Partner"
 msgstr "Diario y socio"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_asset.py:0 code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/models/account_asset.py:0
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
 #, python-format
 msgid "Journal Entries"
-msgstr "Asientos contables"
+msgstr "Entradas de diario"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_move
 msgid "Journal Entry"
 msgstr "Asiento contable"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_line__move_name
+msgid "Journal Entry Name"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_print_journal__sort_selection__move_name
@@ -2102,15 +2609,14 @@ msgid "Journal Item"
 msgstr "Apunte contable"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/payment_matching.py:0 code:addons/language_translation/base_accounting_kit/models/payment_matching.py:0
+#: code:addons/base_accounting_kit/models/payment_matching.py:0
 #, python-format
 msgid "Journal Items"
-msgstr "Apuntes contable"
+msgstr "Elementos del diario"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/js/payment_matching.js:0
-#: code:addons/language_translation/base_accounting_kit/static/src/js/payment_matching.js:0
 #, python-format
 msgid "Journal Items to Reconcile"
 msgstr "Elementos del diario para conciliar"
@@ -2118,13 +2624,14 @@ msgstr "Elementos del diario para conciliar"
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_journal_audit
 msgid "Journal Report"
-msgstr "Informe de Diario"
+msgstr "Informe de revista"
 
 #. module: base_accounting_kit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
 msgid "Journal and Partner"
-msgstr "Diario y Socio"
+msgstr "Diario y compañero"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__journal_ids
@@ -2145,15 +2652,23 @@ msgstr "Diarios contables"
 
 #. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_account_print_journal_menu
-#: model:ir.actions.report,name:base_accounting_kit.action_report_journal model:ir.ui.menu,name:base_accounting_kit.menu_print_journal
+#: model:ir.actions.report,name:base_accounting_kit.action_report_journal
+#: model:ir.ui.menu,name:base_accounting_kit.menu_print_journal
 msgid "Journals Audit"
-msgstr "Auditoría de diarios"
+msgstr "Auditoría de revistas"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_import_journal_creation__layout
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__layout
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__layout
+msgid "Key"
+msgstr ""
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/js/payment_render.js:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/js/payment_render.js:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/js/payment_render.js:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
 #, python-format
 msgid "Label"
@@ -2167,6 +2682,8 @@ msgstr "Etiqueta"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line____last_update
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report____last_update
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_line____last_update
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report____last_update
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report____last_update
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report____last_update
@@ -2192,6 +2709,8 @@ msgstr "Etiqueta"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report____last_update
 #: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line____last_update
 #: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout____last_update
 #: model:ir.model.fields,field_description:base_accounting_kit.field_product_template____last_update
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_day_book_report_template____last_update
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_agedpartnerbalance____last_update
@@ -2201,9 +2720,11 @@ msgstr "Etiqueta"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_financial____last_update
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_general_ledger____last_update
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_journal_audit____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_multiple_invoice____last_update
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_partnerledger____last_update
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_tax____last_update
 #: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_trial_balance____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_company____last_update
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_config_settings____last_update
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner____last_update
 #: model:ir.model.fields,field_description:base_accounting_kit.field_sale_order____last_update
@@ -2212,15 +2733,15 @@ msgstr "Última modificación el"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/xml/template.xml:0 code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Last Month"
-msgstr "Mes pasado"
+msgstr "El mes pasado"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Last Reconciliation:"
 msgstr "Última reconciliación:"
@@ -2250,6 +2771,8 @@ msgstr "Última reconciliación:"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__write_uid
 #: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__write_uid
 #: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__write_uid
 msgid "Last Updated by"
 msgstr "Última actualización por"
 
@@ -2278,15 +2801,22 @@ msgstr "Última actualización por"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__write_date
 #: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__write_date
 #: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__write_date
 msgid "Last Updated on"
 msgstr "Última actualización el"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/xml/template.xml:0 code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Last Year"
-msgstr "Año pasado"
+msgstr "El año pasado"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__text_align__left
+msgid "Left"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__level
@@ -2297,7 +2827,7 @@ msgstr "Nivel"
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_liability0
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_liabilitysum0
 msgid "Liability"
-msgstr "Pasivo"
+msgstr "Responsabilidad"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__method__linear
@@ -2313,18 +2843,16 @@ msgstr "Vinculado"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Load more"
-msgstr "Cargar más"
+msgstr "Carga más"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Load more... ("
-msgstr "Cargar más… ("
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__fiscalyear_lock_date
@@ -2339,7 +2867,7 @@ msgstr "Fecha de bloqueo para no asesores"
 #. module: base_accounting_kit
 #: model:ir.ui.menu,name:base_accounting_kit.menu_lock_dates
 msgid "Lock Dates"
-msgstr "Fechas de bloqueo"
+msgstr "Bloquear fechas"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_lock_date
@@ -2352,9 +2880,17 @@ msgid "Lock your Fiscal Period"
 msgstr "Bloquee su período fiscal"
 
 #. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.background
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.boxed
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.clean
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.standard
+msgid "Logo"
+msgstr ""
+
+#. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "Adjunto principal"
+msgstr "Accesorio principal"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__1
@@ -2364,7 +2900,6 @@ msgstr "Título principal 1 (negrita, subrayado)"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Manual Operations"
 msgstr "Operaciones manuales"
@@ -2372,10 +2907,9 @@ msgstr "Operaciones manuales"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Match with entries that are not from receivable/payable accounts"
-msgstr "Conciliar con entradas que no son de cuentas por cobrar / por pagar"
+msgstr "Coincidir con entradas que no son de cuentas por cobrar / por pagar"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_has_error
@@ -2390,10 +2924,9 @@ msgstr "Mensajes"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Miscellaneous Matching"
-msgstr "Conciliación miscelánea"
+msgstr "Coincidencia miscelánea"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.asset_modify_form
@@ -2401,7 +2934,8 @@ msgid "Modify"
 msgstr "Modificar"
 
 #. module: base_accounting_kit
-#: model:ir.actions.act_window,name:base_accounting_kit.action_asset_modify model:ir.model,name:base_accounting_kit.model_asset_modify
+#: model:ir.actions.act_window,name:base_accounting_kit.action_asset_modify
+#: model:ir.model,name:base_accounting_kit.model_asset_modify
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.asset_modify_form
 msgid "Modify Asset"
 msgstr "Modificar activo"
@@ -2414,10 +2948,14 @@ msgstr "Modificar depreciación"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Modify models"
 msgstr "Modificar modelos"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_form_view
+msgid "Module !"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
@@ -2435,17 +2973,37 @@ msgid "Months"
 msgstr "Meses"
 
 #. module: base_accounting_kit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
-#, fuzzy
 msgid "Move"
-msgstr "Movimiento"
+msgstr "Moverse"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_multiple_invoice
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_import_journal_creation__multiple_invoice_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__multiple_invoice_ids
+msgid "Multiple Invoice"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model:ir.actions.report,name:base_accounting_kit.report_multiple_invoice_copies
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_view_form
+msgid "Multiple Invoice Copies"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_multiple_invoice_layout
+msgid "Multiple Invoice Document Layout"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__template_name
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__name
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
 msgid "Name"
 msgstr "Nombre"
 
@@ -2456,17 +3014,16 @@ msgstr "Neto"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0 code:addons/base_accounting_kit/static/src/xml/template.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/js/account_dashboard.js:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Net Profit or Loss"
-msgstr "Resultado Neto"
+msgstr "Ganancia o pérdida neta"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "New"
 msgstr "Nuevo"
@@ -2474,7 +3031,7 @@ msgstr "Nuevo"
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__remaining_value
 msgid "Next Period Depreciation"
-msgstr "Siguiente período de depreciación"
+msgstr "Depreciación del siguiente período"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__next_reminder_date
@@ -2510,8 +3067,12 @@ msgstr "¡No hay seguimiento para enviar!"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_lock_date__fiscalyear_lock_date
-msgid "No users, including Advisers, can edit accounts prior to and inclusive of this date. Use it for fiscal year locking for example."
-msgstr "Ningún usuario, incluidos los Asesores, puede editar cuentas antes de esta fecha inclusive. Úselo para el bloqueo del año fiscal, por ejemplo."
+msgid ""
+"No users, including Advisers, can edit accounts prior to and inclusive of "
+"this date. Use it for fiscal year locking for example."
+msgstr ""
+"Ningún usuario, incluidos los Asesores, puede editar cuentas antes de esta "
+"fecha inclusive. Úselo para el bloqueo del año fiscal, por ejemplo."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__4
@@ -2526,7 +3087,6 @@ msgstr "No archivado"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__note
 #, python-format
 msgid "Note"
@@ -2535,7 +3095,6 @@ msgstr "Nota"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Nothing to do!"
 msgstr "¡Nada que hacer!"
@@ -2543,7 +3102,7 @@ msgstr "¡Nada que hacer!"
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_needaction_counter
 msgid "Number of Actions"
-msgstr "Número de acciones"
+msgstr "Numero de acciones"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__method_number
@@ -2567,7 +3126,7 @@ msgstr "Número de meses en un período"
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_has_error_counter
 msgid "Number of errors"
-msgstr "Número de errores"
+msgstr "Numero de errores"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_needaction_counter
@@ -2592,25 +3151,46 @@ msgstr "Una entrada cada"
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_lock_date__period_lock_date
 msgid ""
-"Only users with the 'Adviser' role can edit accounts prior to and inclusive of this date. Use it for period locking inside an open fiscal year, for "
+"Only users with the 'Adviser' role can edit accounts prior to and inclusive "
+"of this date. Use it for period locking inside an open fiscal year, for "
 "example."
 msgstr ""
-"Solo los usuarios con el rol de ‘Asesor’ pueden editar cuentas antes de esta fecha inclusive. Úselo para el bloqueo de período dentro de un año fiscal "
+"Solo los usuarios con el rol de ‘Asesor’ pueden editar cuentas antes de esta"
+" fecha inclusive. Úselo para el bloqueo de período dentro de un año fiscal "
 "abierto, por ejemplo."
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/js/payment_model.js:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/js/payment_model.js:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/js/payment_model.js:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Open balance"
 msgstr "Saldo abierto"
 
 #. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_operating_income0
+msgid "Operating Income"
+msgstr ""
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/payment_matching.py:0
+#, python-format
+msgid ""
+"Operation not allowed. Since your statement line already received a number "
+"(%s), you cannot reconcile it entirely with existing journal entries "
+"otherwise it would make a gap in the numbering. You should book an entry and"
+" make a regular revert of it in case you want to cancel it."
+msgstr ""
+
+#. module: base_accounting_kit
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_operation0
 msgid "Operations"
 msgstr "Operaciones"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_other_income0
+msgid "Other Income"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_recurring_payments_form_view
@@ -2629,12 +3209,34 @@ msgid "PDC"
 msgstr "CPD"
 
 #. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.background
+msgid ""
+"Page:\n"
+"                    <span class=\"page\"/>\n"
+"                    of\n"
+"                    <span class=\"topage\"/>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.boxed
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.standard
+msgid "Page: <span class=\"page\"/> / <span class=\"topage\"/>"
+msgstr ""
+
+#. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
-#: code:addons/language_translation/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
 #, python-format
 msgid "Paid"
 msgstr "Pagado"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "Paid on"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__parent_id
@@ -2644,35 +3246,39 @@ msgstr "Padre"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_search
 msgid "Parent Report"
-msgstr "Informe padre"
+msgstr "Informe de padres"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/models/account_asset.py:0 code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
-#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
-#: code:addons/language_translation/base_accounting_kit/static/src/js/account_dashboard.js:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__partner_id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__partner_id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__partner_id
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
 #, python-format
 msgid "Partner"
-msgstr "Socio"
+msgstr "Compañero"
 
 #. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_partner_leadger
-#: model:ir.actions.report,name:base_accounting_kit.action_report_partnerledger model:ir.ui.menu,name:base_accounting_kit.menu_partner_ledger
+#: model:ir.actions.report,name:base_accounting_kit.action_report_partnerledger
+#: model:ir.ui.menu,name:base_accounting_kit.menu_partner_ledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 msgid "Partner Ledger"
-msgstr "Libro Mayor de Socios"
+msgstr "Libro mayor de socios"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_partnerledger
 msgid "Partner Ledger Report"
-msgstr "Informe Libro Mayor de Socios"
+msgstr "Informe del libro mayor de socios"
 
 #. module: base_accounting_kit
 #: model:ir.ui.menu,name:base_accounting_kit.account_reports_partner
@@ -2684,7 +3290,7 @@ msgstr "Informes de socios"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__result_selection
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__result_selection
 msgid "Partner's"
-msgstr "De los Socios"
+msgstr "Socios"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
@@ -2699,7 +3305,7 @@ msgstr "Pagar directamente"
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__pay_time__pay_later
 msgid "Pay Later"
-msgstr "Pagar más tarde"
+msgstr "Paga después"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__pay_time
@@ -2709,10 +3315,9 @@ msgstr "Tiempo de pago"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Pay your"
-msgstr "Pague su"
+msgstr "Paga tu"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_aged_trial_balance__result_selection__supplier
@@ -2730,7 +3335,7 @@ msgstr "Seguimiento de pagos"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.matching_account_payment
 msgid "Payment Matching"
-msgstr "Conciliación de pagos"
+msgstr "Coincidencia de pagos"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_payment
@@ -2740,19 +3345,23 @@ msgstr "Pagos"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.payment_matching_view
 msgid "Payments Matching"
-msgstr "Conciliación de pagos"
+msgstr "Coincidencia de pagos"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_payment.py:0 code:addons/language_translation/base_accounting_kit/models/account_payment.py:0
+#: code:addons/base_accounting_kit/models/account_payment.py:0
 #, python-format
-msgid "Payments to print as a checks must have 'Check' or 'PDC' selected as payment method and not have already been reconciled"
-msgstr "Los pagos para imprimir como cheques deben tener ‘Cheque’ o ‘CPD’ seleccionado como método de pago y no haber sido conciliados"
+msgid ""
+"Payments to print as a checks must have 'Check' or 'PDC' selected as payment"
+" method and not have already been reconciled"
+msgstr ""
+"Los pagos para imprimir como cheques deben tener ‘Cheque’ o ‘CPD’ "
+"seleccionado como método de pago y no haber sido conciliados"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_payment.py:0 code:addons/language_translation/base_accounting_kit/models/account_payment.py:0
+#: code:addons/base_accounting_kit/models/account_payment.py:0
 #, python-format
 msgid "Payments without a customer can't be matched"
-msgstr "Los pagos sin un cliente no se pueden conciliar"
+msgstr "Los pagos sin un cliente no se pueden igualar"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__method_period
@@ -2771,20 +3380,32 @@ msgid "Periodicity"
 msgstr "Periodicidad"
 
 #. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "Please use the following communication for your payment :"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.multiple_invoice_wizard_preview
+msgid ""
+"Please use the following communication for your payment : <b><span>\n"
+"                           INV/2020/07/0003</span></b>"
+msgstr ""
+
+#. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_asset_depreciation_confirmation_wizard
 msgid "Post Depreciation Lines"
-msgstr "Contabilizar líneas de depreciación"
+msgstr "Líneas posteriores a la depreciación"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/js/account_asset.js:0 code:addons/language_translation/base_accounting_kit/static/src/js/account_asset.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_asset.js:0
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__move_posted_check
 #: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__move_check
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__journal_state__posted
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
 #, python-format
 msgid "Posted"
-msgstr "Contabilizado"
+msgstr "Al corriente"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__posted_value
@@ -2799,15 +3420,19 @@ msgstr "Líneas de depreciación contabilizadas"
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__sign__1
 msgid "Preserve balance sign"
-msgstr "Conservar el signo de balance"
+msgstr "Conservar el signo de equilibrio"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Presets config"
 msgstr "Configuración de preajustes"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__preview
+msgid "Preview"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_aged_balance_view
@@ -2816,18 +3441,22 @@ msgstr "Configuración de preajustes"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_day_book_form_view
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.financial_report_wiz_modified
 msgid "Print"
-msgstr "Imprimir"
+msgstr "Impresión"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_payment.py:0 code:addons/language_translation/base_accounting_kit/models/account_payment.py:0
+#: code:addons/base_accounting_kit/models/account_payment.py:0
 #, python-format
 msgid "Print Pre-numbered Checks"
-msgstr "Imprimir cheques pre-numerados"
+msgstr "Imprimir cheques numerados previamente"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_print_journal__amount_currency
-msgid "Print Report with the currency column if the currency differs from the company currency."
-msgstr "Imprimir informe con columna moneda si la moneda difiere de la de la compañía."
+msgid ""
+"Print Report with the currency column if the currency differs from the "
+"company currency."
+msgstr ""
+"Imprimir informe con columna moneda si la moneda difiere de la de la "
+"compañía"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_product_template
@@ -2837,31 +3466,45 @@ msgstr "Plantilla de producto"
 #. module: base_accounting_kit
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_profitloss_toreport0
 msgid "Profit (Loss) to report"
-msgstr "Informe de Resultados"
+msgstr "Beneficio (pérdida) para informar"
 
 #. module: base_accounting_kit
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_profitandloss0
 #: model:ir.actions.act_window,name:base_accounting_kit.action_profit_and_loss_report
 #: model:ir.ui.menu,name:base_accounting_kit.account_financial_reports_profit_loss
 msgid "Profit and Loss"
-msgstr "Resultados"
+msgstr "Ganancia y perdida"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#, python-format
+msgid "Profit/Loss"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__prorata
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__prorata
 msgid "Prorata Temporis"
-msgstr "Prorata Temporis"
+msgstr ""
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_asset.py:0 code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/models/account_asset.py:0
 #, python-format
-msgid "Prorata temporis can be applied only for time method \"number of depreciations\"."
-msgstr "La prorata temporis se puede aplicar solo para el método de tiempo “número de depreciaciones”."
+msgid ""
+"Prorata temporis can be applied only for time method \"number of "
+"depreciations\"."
+msgstr ""
+"La prorata temporis se puede aplicar solo para el método de tiempo “número "
+"de depreciaciones”."
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
 msgid "Purchase"
-msgstr "Compras"
+msgstr "Compra"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
@@ -2871,7 +3514,7 @@ msgstr "Mes de compra"
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__type__purchase
 msgid "Purchase: Asset"
-msgstr "Compras: Activo"
+msgstr "Compra: Activo"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__name
@@ -2901,14 +3544,13 @@ msgstr "Cuenta de reconocimiento"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
-#, fuzzy
 msgid "Recognition Income Account"
 msgstr "Cuenta de ingresos por reconocimiento"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.payment_matching_view
 #, python-format
 msgid "Reconcile"
@@ -2951,18 +3593,19 @@ msgstr "Plantilla recurrente"
 #: model:ir.ui.menu,name:base_accounting_kit.account_recurring_payments_child1
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_recurring_payments_tree_view
 msgid "Recurring Templates"
-msgstr "Plantillas recurrente"
+msgstr "Plantilla recurrente"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 #, python-format
 msgid "Ref"
-msgstr "Ref"
+msgstr "Árbitro"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__code
@@ -2982,12 +3625,12 @@ msgstr "Recordatorio"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_form
 msgid "Report"
-msgstr "Informe"
+msgstr "Reporte"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__name
 msgid "Report Name"
-msgstr "Nombre de informe"
+msgstr "Reportar nombre"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_aged_balance_view
@@ -3006,13 +3649,17 @@ msgid "Report Value"
 msgstr "Valor del informe"
 
 #. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_multiple_invoice
+msgid "Report multiple invoice"
+msgstr ""
+
+#. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 #, python-format
 msgid "Residual"
-msgstr "Residual"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__value_residual
@@ -3021,9 +3668,13 @@ msgstr "Valor residual"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__sign__-1
-#, fuzzy
 msgid "Reverse balance sign"
-msgstr "Invertir Signo de Balance"
+msgstr "Signo de equilibrio inverso"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__text_align__right
+msgid "Right"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__state__open
@@ -3031,7 +3682,7 @@ msgstr "Invertir Signo de Balance"
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__asset_asset_report__state__open
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
 msgid "Running"
-msgstr "Corriente"
+msgstr "Corriendo"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_has_sms_error
@@ -3041,7 +3692,7 @@ msgstr "Error de entrega de SMS"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
 msgid "Sale"
-msgstr "Venta"
+msgstr "Rebaja"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__type__sale
@@ -3064,9 +3715,13 @@ msgid "Salvage Value"
 msgstr "Valor del rescate"
 
 #. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_multiple_invoice_layout
+msgid "Save"
+msgstr ""
+
+#. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Save and New"
 msgstr "Guardar y nuevo"
@@ -3078,14 +3733,12 @@ msgstr "Buscar categoría de activos"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_filter
-#, fuzzy
 msgid "Search Follow-up"
 msgstr "Seguimiento de búsqueda"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/js/payment_render.js:0
-#: code:addons/language_translation/base_accounting_kit/static/src/js/payment_render.js:0
 #, python-format
 msgid "Select Partner"
 msgstr "Seleccionar socio"
@@ -3093,7 +3746,6 @@ msgstr "Seleccionar socio"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Select a partner or choose a counterpart"
 msgstr "Seleccione un socio o elija una contraparte"
@@ -3111,14 +3763,18 @@ msgid "Sequence"
 msgstr "Secuencia"
 
 #. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice__sequence
+msgid "Sequence No"
+msgstr ""
+
+#. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 msgid "Set to Draft"
-msgstr "Establecer a borrador"
+msgstr "Establecer en borrador"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Settings"
 msgstr "Configuraciones"
@@ -3130,7 +3786,12 @@ msgstr "Iniciar sesión en informes"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/xml/template.xml:0 code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Skill Level: 50%"
 msgstr "Nivel de habilidad: 50%"
@@ -3138,7 +3799,6 @@ msgstr "Nivel de habilidad: 50%"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Skip"
 msgstr "Omitir"
@@ -3151,7 +3811,6 @@ msgstr "Texto más pequeño"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/js/payment_render.js:0
-#: code:addons/language_translation/base_accounting_kit/static/src/js/payment_render.js:0
 #, python-format
 msgid "Some fields are undefined"
 msgstr "Algunos campos no están definidos"
@@ -3204,17 +3863,17 @@ msgstr "Estado"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/xml/template.xml:0 code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Supplier Invoice"
-msgstr "Facturas de Proveedor"
+msgstr "Factura del proveedor"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/xml/template.xml:0 code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "TOP 10 CUSTOMERS"
-msgstr "Mejores 10 clientes"
+msgstr "Los 10 mejores clientes"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__target_move
@@ -3249,16 +3908,22 @@ msgid "Tax Declaration"
 msgstr "Declaración de impuestos"
 
 #. module: base_accounting_kit
-#. openerp-web
-#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, python-format
-msgid "Tax Included in Price"
-msgstr "Impuestos incluídos en el precio"
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "Tax ID"
+msgstr ""
 
 #. module: base_accounting_kit
-#: model:ir.actions.report,name:base_accounting_kit.action_report_account_tax model:ir.model,name:base_accounting_kit.model_kit_account_tax_report
-#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_tax model:ir.ui.menu,name:base_accounting_kit.menu_tax_report
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#, python-format
+msgid "Tax Included in Price"
+msgstr "Impuestos incluidos en el precio"
+
+#. module: base_accounting_kit
+#: model:ir.actions.report,name:base_accounting_kit.action_report_account_tax
+#: model:ir.model,name:base_accounting_kit.model_kit_account_tax_report
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_tax
+#: model:ir.ui.menu,name:base_accounting_kit.menu_tax_report
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
 msgid "Tax Report"
 msgstr "Informe de impuestos"
@@ -3266,122 +3931,167 @@ msgstr "Informe de impuestos"
 #. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_account_tax_report
 msgid "Tax Reports"
-msgstr "Informes de impuestos"
+msgstr "Reportes de impuestos"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Taxes"
 msgstr "Impuestos"
 
 #. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_bank_statement_line__move_name
+msgid ""
+"Technical field holding the number given to the journal entry, automatically"
+" set when the statement line is reconciled then stored to set the same "
+"number again if the line is cancelled, set to draft and re-processed again."
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.clean
+msgid "Tel:"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__multiple_invoice_type__text
+msgid "Text"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_import_journal_creation__text_align
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__text_align
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__text_align
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_multiple_invoice_layout
+msgid "Text Align"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_import_journal_creation__text_position
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__text_position
+#: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__text_position
+msgid "Text Position"
+msgstr ""
+
+#. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "That's on average"
 msgstr "Eso es en promedio"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/js/payment_model.js:0 code:addons/language_translation/base_accounting_kit/static/src/js/payment_model.js:0
+#: code:addons/base_accounting_kit/static/src/js/payment_model.js:0
 #, python-format
-msgid "La cantidad %s no es una cantidad parcial válida"
+msgid "The amount %s is not a valid partial amount"
 msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__method_period
 msgid "The amount of time between two depreciations, in months"
-msgstr "La cantidad de tiempo entre dos depreciaciones, en meses"
+msgstr "La cantidad de tiempo entre dos depreciaciones, en meses."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_res_company__account_bank_reconciliation_start
+msgid ""
+"The bank reconciliation widget won't ask to reconcile payments older than this date.\n"
+"                                                                                                           This is useful if you install accounting after having used invoicing for some time and\n"
+"                                                                                                           don't want to reconcile all the past payments with bank statements."
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_followup_line__delay
 msgid ""
-"The number of days after the due date of the invoice to wait before sending the reminder.  Could be negative if you want to send a polite alert "
+"The number of days after the due date of the invoice to wait before sending "
+"the reminder.  Could be negative if you want to send a polite alert "
 "beforehand."
 msgstr ""
-"El número de días después de la fecha de vencimiento de la factura que debe esperar antes de enviar el recordatorio. Podría ser negativo si desea "
-"enviar una alerta cortés de antemano."
+"El número de días después de la fecha de vencimiento de la factura que debe "
+"esperar antes de enviar el recordatorio. Podría ser negativo si desea enviar"
+" una alerta cortés de antemano."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__method_number
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__method_number
 msgid "The number of depreciations needed to depreciate your asset"
-msgstr "La cantidad de depreciaciones necesarias para depreciar su activo"
+msgstr "La cantidad de depreciaciones necesarias para depreciar su activo."
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_move.py:0 code:addons/language_translation/base_accounting_kit/models/account_move.py:0
+#: code:addons/base_accounting_kit/models/account_move.py:0
 #, python-format
-msgid "The number of depreciations or the period length of your asset category cannot be null."
-msgstr "El número de depreciaciones o la duración del período de su categoría de activos no puede ser nulo."
+msgid ""
+"The number of depreciations or the period length of your asset category "
+"cannot be null."
+msgstr ""
+"El número de depreciaciones o la duración del período de su categoría de "
+"activos no puede ser nulo."
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "There is nothing to reconcile."
 msgstr "No hay nada que reconciliar."
 
 #. module: base_accounting_kit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_move_form_inherited model_terms:ir.ui.view,arch_db:base_accounting_kit.header_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_move_form_inherited
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.header_view
 msgid "This Customer's due amount is"
 msgstr "El monto adeudado por este cliente es"
 
 #. module: base_accounting_kit
-#. openerp-web
-#: code:addons/base_accounting_kit/static/src/xml/template.xml:0 code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
-#, python-format
-msgid "This Month"
-msgstr "Este mes"
-
-#. module: base_accounting_kit
-#. openerp-web
-#: code:addons/base_accounting_kit/static/src/xml/template.xml:0 code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
-#, python-format
-msgid "This Year"
-msgstr "Este año"
-
-#. module: base_accounting_kit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_move_form_inherited model_terms:ir.ui.view,arch_db:base_accounting_kit.header_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_move_form_inherited
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.header_view
 msgid "This customer's <strong>warning limit</strong> has been crossed."
-msgstr "Se superó el <strong> límite de advertencia </strong> de este cliente."
+msgstr ""
+"Se superó el <strong> límite de advertencia </strong> de este cliente."
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_asset.py:0 code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/models/account_asset.py:0
 #, python-format
-msgid "This depreciation is already linked to a journal entry! Please post or delete it."
-msgstr "¡Esta depreciación ya está vinculada a un asiento de diario! Publíquelo o elimínelo."
+msgid ""
+"This depreciation is already linked to a journal entry! Please post or "
+"delete it."
+msgstr ""
+"¡Esta depreciación ya está vinculada a un asiento de diario! Publíquelo o "
+"elimínelo."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_cash_flow_report__label_filter
-msgid "This label will be displayed on report to show the balance computed for the given comparison filter."
-msgstr "Esta etiqueta se presentará en el informe para mostrar el saldo calculado para el filtro de comparación dado."
+msgid ""
+"This label will be displayed on report to show the balance computed for the "
+"given comparison filter."
+msgstr ""
+"Esta etiqueta se presentará en el informe para mostrar el saldo calculado "
+"para el filtro de comparación dado."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_cash_flow_report__debit_credit
 #: model:ir.model.fields,help:base_accounting_kit.field_financial_report__debit_credit
 msgid ""
-"This option allows you to get more details about the way your balances are computed. Because it is space consuming, we do not allow to use it while "
+"This option allows you to get more details about the way your balances are "
+"computed. Because it is space consuming, we do not allow to use it while "
 "doing a comparison."
 msgstr ""
-"Esta opción le permite obtener más detalles sobre la forma en que se calculan sus saldos. Debido a que consume espacio, no permitimos su uso mientras "
-"hacemos una comparación."
+"Esta opción le permite obtener más detalles sobre la forma en que se "
+"calculan sus saldos. Debido a que consume espacio, no permitimos su uso "
+"mientras hacemos una comparación."
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
-msgid "This page displays all the bank transactions that are to be reconciled and provides with a neat interface to do so."
-msgstr "Esta página muestra todas las transacciones bancarias que deben conciliarse y proporciona una interfaz ordenada para hacerlo."
+msgid ""
+"This page displays all the bank transactions that are to be reconciled and "
+"provides with a neat interface to do so."
+msgstr ""
+"Esta página muestra todas las transacciones bancarias que deben conciliarse "
+"y proporciona una interfaz ordenada para hacerlo."
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "This payment is registered but not reconciled."
 msgstr "Este pago está registrado pero no conciliado."
@@ -3393,8 +4103,7 @@ msgid ""
 "                        This will generate journal entries for all related installment lines on this period of asset/revenue recognition as well."
 msgstr ""
 "Este asistente publicará líneas de amortización / cuotas para el mes seleccionado. <br/>\n"
-"                        Esto generará asientos de diario para todas las líneas de cuotas relacionadas en este período de reconocimiento de activos / "
-"ingresos también."
+"                        Esto generará asientos de diario para todas las líneas de cuotas relacionadas en este período de reconocimiento de activos / ingresos también."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__method_time
@@ -3421,7 +4130,6 @@ msgstr "Título 3 (negrita, más pequeño)"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "To Check"
 msgstr "Verificar"
@@ -3450,16 +4158,25 @@ msgstr ""
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "To speed up reconciliation, define"
 msgstr "Para acelerar la reconciliación, defina"
 
 #. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__body_text_position__tl
+msgid "Top Left"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__body_text_position__tr
+msgid "Top Right"
+msgstr ""
+
+#. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_tree_view
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
 msgid "Total"
-msgstr "Total"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__total_due
@@ -3469,18 +4186,18 @@ msgstr "Total adeudado"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0 code:addons/base_accounting_kit/static/src/xml/template.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/js/account_dashboard.js:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Total Expenses"
 msgstr "Gastos totales"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0 code:addons/base_accounting_kit/static/src/xml/template.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/js/account_dashboard.js:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Total Income"
 msgstr "Ingresos totales"
@@ -3499,27 +4216,27 @@ msgstr "Total vencido"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__due_amount
 #: model:ir.model.fields,field_description:base_accounting_kit.field_sale_order__due_amount
 msgid "Total Sale"
-msgstr "Total de Ventas"
+msgstr "Venta total"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Transaction"
 msgstr "Transacción"
 
 #. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_account_balance_menu
-#: model:ir.actions.report,name:base_accounting_kit.action_report_trial_balance model:ir.ui.menu,name:base_accounting_kit.menu_Balance_report
+#: model:ir.actions.report,name:base_accounting_kit.action_report_trial_balance
+#: model:ir.ui.menu,name:base_accounting_kit.menu_Balance_report
 msgid "Trial Balance"
-msgstr "Balance de Comprobación"
+msgstr "Balance de prueba"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_balance_report
 #: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_trial_balance
 msgid "Trial Balance Report"
-msgstr "Informe de Balance de Comprobación"
+msgstr "Informe de balance de comprobación"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__type
@@ -3530,18 +4247,18 @@ msgid "Type"
 msgstr "Tipo"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/report/report_aged_partner.py:0 code:addons/language_translation/base_accounting_kit/report/report_aged_partner.py:0
+#: code:addons/base_accounting_kit/report/report_aged_partner.py:0
 #, python-format
 msgid "Unknown Partner"
 msgstr "Socio desconocido"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/js/account_asset.js:0 code:addons/language_translation/base_accounting_kit/static/src/js/account_asset.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_asset.js:0
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__journal_state__draft
 #, python-format
 msgid "Unposted"
-msgstr "No contabilizado"
+msgstr "Dispuesto"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__unposted_value
@@ -3561,14 +4278,14 @@ msgstr "Contador de mensajes no leídos"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
-#: code:addons/language_translation/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
 #, python-format
 msgid "Unreconciled"
 msgstr "No reconciliado"
 
 #. module: base_accounting_kit
 #. openerp-web
-#: code:addons/base_accounting_kit/static/src/xml/template.xml:0 code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Unreconciled items"
 msgstr "Elementos no conciliados"
@@ -3581,7 +4298,8 @@ msgstr "Actualizar"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Validate"
 msgstr "Validar"
@@ -3590,12 +4308,21 @@ msgstr "Validar"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_purchase_tree
 msgid "Vendor"
-msgstr "Proveedor"
+msgstr "Vendedor"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "Vendor Bill"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "Vendor Credit Note"
+msgstr ""
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Verify"
 msgstr "Verificar"
@@ -3603,11 +4330,10 @@ msgstr "Verificar"
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__financial_report__view_format__vertical
 msgid "Vertical"
-msgstr "Vertical"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__type__sum
-#, fuzzy
 msgid "View"
 msgstr "Ver"
 
@@ -3615,13 +4341,18 @@ msgstr "Ver"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__warning_stage
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__warning_stage
 msgid "Warning Amount"
-msgstr "Monto de advertencia"
+msgstr "Cantidad de advertencia"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/credit_limit.py:0 code:addons/language_translation/base_accounting_kit/models/credit_limit.py:0
+#: code:addons/base_accounting_kit/models/credit_limit.py:0
 #, python-format
 msgid "Warning amount should be less than Blocking amount"
-msgstr "El monto de advertencia debe ser menor que el monto de bloqueo"
+msgstr "La cantidad de advertencia debe ser menor que la cantidad de bloqueo"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_journal__multiple_invoice_type__watermark
+msgid "Watermark"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__website_message_ids
@@ -3648,8 +4379,7 @@ msgid ""
 msgstr ""
 "Cuando se crea un activo, el estado es ‘Borrador’.\n"
 "Si se confirma el activo, el estado pasa a ‘En ejecución’ y las líneas de depreciación se pueden contabilizar en la contabilidad.\n"
-"Puede cerrar manualmente un activo cuando finaliza la depreciación. Si se registra la última línea de depreciación, el activo pasa automáticamente a "
-"ese estado."
+"Puede cerrar manualmente un activo cuando finaliza la depreciación. Si se registra la última línea de depreciación, el activo pasa automáticamente a ese estado."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__amount_currency
@@ -3667,8 +4397,10 @@ msgid "With balance is not equal to 0"
 msgstr "Con saldo no es igual a 0"
 
 #. module: base_accounting_kit
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "With balance not equal to zero"
 msgstr "Con saldo no igual a cero"
 
@@ -3678,10 +4410,12 @@ msgstr "Con saldo no igual a cero"
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_cash_book_report__display_account__movement
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_common_account_report__display_account__movement
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_general_ledger__display_account__movement
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
-#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "With movements"
-msgstr "Con movimientos"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__res_partner__followup_status__with_overdue_invoices
@@ -3689,15 +4423,21 @@ msgid "With overdue invoices"
 msgstr "Con facturas vencidas"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/payment_matching.py:0 code:addons/language_translation/base_accounting_kit/models/payment_matching.py:0
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_form_view
+msgid ""
+"Wonder how to Send Followup mails and Print Followup Reports ? Download our"
+msgstr ""
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/payment_matching.py:0
+#: code:addons/base_accounting_kit/models/payment_matching.py:0
 #, python-format
 msgid "Write-Off"
-msgstr "Cancelación"
+msgstr "Pedir por escrito"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Writeoff Date"
 msgstr "Fecha de cancelación"
@@ -3713,7 +4453,7 @@ msgid "Years"
 msgstr "Años"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/wizard/account_lock_date.py:0 code:addons/language_translation/base_accounting_kit/wizard/account_lock_date.py:0
+#: code:addons/base_accounting_kit/wizard/account_lock_date.py:0
 #, python-format
 msgid "You are not allowed to execute this action."
 msgstr "No se le permite ejecutar esta acción."
@@ -3721,58 +4461,60 @@ msgstr "No se le permite ejecutar esta acción."
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_financial_report__style_overwrite
 msgid ""
-"You can set up here the format you want this record to be displayed. If you leave the automatic formatting, it will be computed based on the financial "
+"You can set up here the format you want this record to be displayed. If you "
+"leave the automatic formatting, it will be computed based on the financial "
 "reports hierarchy (auto-computed field 'level')."
 msgstr ""
-"Puede configurar aquí el formato en el que desea que se muestre este registro. Si deja el formato automático, se calculará en función de la jerarquía "
-"de informes financieros (“nivel” de campo calculado automáticamente)."
+"Puede configurar aquí el formato en el que desea que se muestre este "
+"registro. Si deja el formato automático, se calculará en función de la "
+"jerarquía de informes financieros (“nivel” de campo calculado "
+"automáticamente)."
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_asset.py:0 code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid "You cannot delete a document is in %s state."
 msgstr "No se puede eliminar un documento que está en estado %s."
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_asset.py:0 code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid "You cannot delete a document that contains posted entries."
 msgstr "No puede eliminar un documento que contiene entradas publicadas."
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_asset.py:0 code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid "You cannot delete posted depreciation lines."
 msgstr "No puede eliminar las líneas de depreciación registradas."
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/models/account_asset.py:0 code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid "You cannot delete posted installment lines."
 msgstr "No puede eliminar las líneas de cuotas registradas."
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/wizard/account_bank_book_wizard.py:0 code:addons/base_accounting_kit/wizard/account_cash_book_wizard.py:0
-#: code:addons/language_translation/base_accounting_kit/wizard/account_bank_book_wizard.py:0
-#: code:addons/language_translation/base_accounting_kit/wizard/account_cash_book_wizard.py:0
+#: code:addons/base_accounting_kit/wizard/account_bank_book_wizard.py:0
+#: code:addons/base_accounting_kit/wizard/account_cash_book_wizard.py:0
 #, python-format
 msgid "You must choose a Start Date"
-msgstr "Debe elegir una fecha de inicio"
+msgstr "Debes elegir una fecha de inicio"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/wizard/general_ledger.py:0 code:addons/language_translation/base_accounting_kit/wizard/general_ledger.py:0
+#: code:addons/base_accounting_kit/wizard/general_ledger.py:0
 #, python-format
 msgid "You must define a Start Date"
-msgstr "Debe definir una fecha de inicio"
+msgstr "Debes definir una fecha de inicio"
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/wizard/aged_partner.py:0 code:addons/language_translation/base_accounting_kit/wizard/aged_partner.py:0
+#: code:addons/base_accounting_kit/wizard/aged_partner.py:0
 #, python-format
 msgid "You must set a period length greater than 0."
-msgstr "Debe establecer una duración del período mayor que 0."
+msgstr "Debe establecer una duración del período superior a 0."
 
 #. module: base_accounting_kit
-#: code:addons/base_accounting_kit/wizard/aged_partner.py:0 code:addons/language_translation/base_accounting_kit/wizard/aged_partner.py:0
+#: code:addons/base_accounting_kit/wizard/aged_partner.py:0
 #, python-format
 msgid "You must set a start date."
 msgstr "Debe establecer una fecha de inicio."
@@ -3780,15 +4522,13 @@ msgstr "Debe establecer una fecha de inicio."
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "You reconciled"
-msgstr "Usted reconcilió"
+msgstr "Te reconciliaste"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "and follow-up customers"
 msgstr "y seguimiento de clientes"
@@ -3806,12 +4546,12 @@ msgstr "días de retraso, realice las siguientes acciones:"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
 msgid "e.g. Computers"
-msgstr "p.ej. Computadoras"
+msgstr "p.ej. Ordenadores"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 msgid "e.g. Laptop iBook"
-msgstr "p.ej. Laptop Portátil"
+msgstr "p.ej. IBook portátil"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_form_view
@@ -3821,7 +4561,6 @@ msgstr "no tiene monto adeudado."
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "have been reconciled automatically."
 msgstr "se han reconciliado automáticamente."
@@ -3829,7 +4568,7 @@ msgstr "se han reconciliado automáticamente."
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__tmpl_id
 msgid "id"
-msgstr "id"
+msgstr ""
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.asset_modify_form
@@ -3838,9 +4577,13 @@ msgid "months"
 msgstr "meses"
 
 #. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_multiple_invoice_new
+msgid "on"
+msgstr ""
+
+#. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "reconcile"
 msgstr "conciliar"
@@ -3848,7 +4591,6 @@ msgstr "conciliar"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "reconciliation models"
 msgstr "modelos de reconciliación"
@@ -3856,7 +4598,6 @@ msgstr "modelos de reconciliación"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "remaining)"
 msgstr ""
@@ -3864,12 +4605,11 @@ msgstr ""
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_form_view
 msgid "report"
-msgstr "informe"
+msgstr "reporte"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "seconds per transaction."
 msgstr "segundos por transacción."
@@ -3877,7 +4617,6 @@ msgstr "segundos por transacción."
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "statement lines"
 msgstr "líneas de declaración"
@@ -3885,7 +4624,6 @@ msgstr "líneas de declaración"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "transactions in"
 msgstr "transacciones en"
@@ -3893,7 +4631,6 @@ msgstr "transacciones en"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "unpaid invoices"
 msgstr "facturas impagas"
@@ -3901,7 +4638,6 @@ msgstr "facturas impagas"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "unreconciled entries"
 msgstr "entradas no conciliadas"
@@ -3909,7 +4645,6 @@ msgstr "entradas no conciliadas"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "vendor bills"
 msgstr "facturas del proveedor"
