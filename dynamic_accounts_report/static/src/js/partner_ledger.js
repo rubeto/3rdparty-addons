@@ -356,25 +356,29 @@ odoo.define('dynamic_accounts_report.partner_ledger', function (require) {
             }
 
             if ($(".reconciled").length){
+            var reconciled = document.getElementById("reconciled")
+            var reconciled_selected = reconciled.options[reconciled.selectedIndex];
             var reconciled_res = document.getElementById("reconciled_res")
-            filter_data_selected.reconciled = $(".reconciled")[0].value
-            reconciled_res.value = $(".reconciled")[0].value
+            filter_data_selected.reconciled = reconciled_selected.value
+            reconciled_res.value = reconciled_selected.text
             reconciled_res.innerHTML=reconciled_res.value;
-            if ($(".reconciled").value==""){
-                reconciled_res.innerHTML="unreconciled";
+            if ($(".reconciled")[0].value==""){
+                reconciled_res.innerHTML="Unreconciled";
                 filter_data_selected.reconciled = "unreconciled"
                 }
             }
 
             if ($(".target_move").length) {
+            var entries = document.getElementById("entries")
+            var entries_selected = entries.options[entries.selectedIndex];
             var post_res = document.getElementById("post_res")
-            filter_data_selected.target_move = $(".target_move")[0].value
-            post_res.value = $(".target_move")[0].value
-                    post_res.innerHTML=post_res.value;
-              if ($(".target_move")[0].value == "") {
-              post_res.innerHTML="posted";
-
-              }
+            filter_data_selected.target_move = entries_selected.value
+            post_res.value = entries_selected.text
+            post_res.innerHTML=post_res.value;
+            if ($(".target_move")[0].value == "") {
+                post_res.innerHTML="Posted Entries";
+                filter_data_selected.target_move = 'posted'
+               }
             }
             rpc.query({
                 model: 'account.partner.ledger',

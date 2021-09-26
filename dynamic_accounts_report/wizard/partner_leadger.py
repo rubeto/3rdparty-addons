@@ -33,8 +33,9 @@ class PartnerView(models.TransientModel):
     partner_category_ids = fields.Many2many('res.partner.category',
                                             string='Partner tags')
     reconciled = fields.Selection([
+        ('all', 'All'),
         ('unreconciled', 'Unreconciled Only')],
-        string='Reconcile Type', default='unreconciled')
+        string='Reconcile Type', default='all')
 
     account_type_ids = fields.Many2many('account.account.type',string='Account Type',
                                         domain=[('type', 'in', ('receivable', 'payable'))])
@@ -111,7 +112,10 @@ class PartnerView(models.TransientModel):
             filters['partners'] = ['All']
 
         if data.get('reconciled') == 'unreconciled':
-            filters['reconciled'] = 'Unreconciled'
+            filters['reconciled'] = 'unreconciled'
+        else:
+            filters['reconciled'] = 'all'
+
 
         if data.get('account_type', []):
             filters['account_type'] = self.env['account.account.type'].browse(data.get('account_type', [])).mapped('name')

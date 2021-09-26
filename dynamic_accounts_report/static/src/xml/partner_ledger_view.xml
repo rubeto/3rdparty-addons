@@ -93,7 +93,7 @@
     <t t-name="PLFilterView">
         <div class="" style="position: relative;">
             <div class="sub_container_left">
-                <div class="report_print">
+                <div class="report_print" style="width: 50%;">
                     <button type="button" class="btn btn-primary" id="pdf"
                             style="left:10px; height:30px;position: relative;color:white;background-color: #00A0AD;border-color: #00A0AD; padding:3px;">
                         Print (PDF)
@@ -105,11 +105,11 @@
                 </div>
             </div>
             <br></br>
-            <div class="sub_container_right" style="width:50%;height:3%;right:0px;top:0px;position: absolute;">
-                <div class="" style="right:80x;">
+            <div class="sub_container_right" style="width:50%;right:0px;top:0px;position: absolute;">
+                <div class="">
 
                     <br></br>
-                    <div class="row" style="right:80px;top:0px;position: absolute;width:50;">
+                    <div class="row" style="top:0px;position: absolute; width:90%;">
                         <div class="time_range" style="">
                             <a type="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                                 <span class="fa fa-calendar" title="Dates" role="img" aria-label="Dates"></span>
@@ -146,6 +146,19 @@
                             </select>
                             <span id="partner_res"></span>
 
+                        </div>
+
+                        <div class="search-Target-move" style="">
+                            <a type="button" class="dropdown-toggle" data-toggle="dropdown">
+                                <span class="fa fa-filter"></span>
+                                Reconciled Type:
+                            </a>
+                            <select id="reconciled" class="dropdown-menu reconciled" name="states[]">
+                                <div role="separator" class="dropdown-divider"></div>
+                                <option value="all" selected="selected">All</option>
+                                <option value="unreconciled">Unreconciled</option>
+                            </select>
+                            <span id="reconciled_res"></span>
                         </div>
 
                         <div class="acccount_type_filter">
@@ -219,7 +232,7 @@
                             </a>
                             <select id="entries" class="dropdown-menu target_move" name="states[]">
                                 <div role="separator" class="dropdown-divider"></div>
-                                <option value="Posted">Posted Entries</option>
+                                <option value="Posted" selected="selected">Posted Entries</option>
                                 <option value="All">All Entries</option>
                             </select>
                             <span id="post_res"></span>
@@ -227,7 +240,7 @@
                     </div>
 
                 </div>
-                <div style="">
+                <div>
                     <button type="button" id="apply_filter" class="btn btn-primary"
                             style="top:0px;height:30px;right:20px;position: absolute;color:white;background-color: #00A0AD;border-color: #00A0AD;">
                         Apply
