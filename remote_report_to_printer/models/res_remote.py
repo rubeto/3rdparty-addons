@@ -11,7 +11,6 @@ class ResRemote(models.Model):
         inverse_name='remote_id',
     )
 
-    @api.multi
     def get_printer_behaviour(self):
         self.ensure_one()
         printer_usage = self.env.context.get('printer_usage', 'standard')
