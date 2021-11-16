@@ -532,7 +532,7 @@ msgstr "Lista de impresoras"
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.view_users_form
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.view_users_form_simple_modif
 msgid "Printing"
-msgstr "Imprimiendo"
+msgstr "Impresión"
 
 #. module: base_report_to_printer
 #: model:res.groups,name:base_report_to_printer.printing_group_manager
