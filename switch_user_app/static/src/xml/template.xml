@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+
+<t t-extend="UserMenu.Actions">
+    
+    <t t-jquery="a[data-menu='logout']"  t-operation="after">
+        <t t-if="widget.getSession().switch_user_enable">
+            <div role="separator" class="dropdown-divider"/>
+            <a role="menuitem" href="#" data-menu="switch_user" class="dropdown-item" t-att-switch_user_enable="widget.getSession().switch_user_enable">
+            Switch User</a>
+        </t>
+    </t>
+</t>
+
+
+</template>
